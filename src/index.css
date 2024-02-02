@@ -4,12 +4,14 @@
     margin: 0;
     padding: 0;
     
+    
 }
 
 .article {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0px 60px; 
+    padding: 0px 100px;
+    font-family: system-ui;
 }
 
 
@@ -31,5 +33,48 @@
     justify-content: space-between;
     align-items: center;
 }
+
+/* Estilos buttons */
+
+.button-arrow-container {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 4px; /* Espacio entre los botones */
+}
+
+.button-arrow-container button {
+    width: 6vh;
+    height: 5vh;
+    font-size: 20px;
+    font-family: system-ui;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 20%;
+    background-color: rgb(245, 245, 245);
+    
+    cursor: pointer;
+}
+
+.button-arrow-container button:hover {
+   background-color: rgb(226, 226, 226);
+}
+
+.button-arrow-container button:active {
+    animation: clicAnimacion 0.15s ease-in-out;
+    background-color: rgb(199, 199, 199);
+}
+
+@keyframes clicAnimacion {
+    0% {
+        transform: scale(1); /* Escala normal al inicio de la animación */
+      }
+      50% {
+        
+        transform: scale(0.95); /* Escala más pequeña a la mitad de la animación */
+      }
+      100% {
+        transform: scale(1); /* Vuelve a la escala normal al final de la animación */
+      }
+    }
 
 

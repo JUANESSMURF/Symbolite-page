@@ -1,31 +1,218 @@
+import React from 'react';
+import { copyText } from "../Logic"
 
 
 
 export const SymArrows = () => {
 
-    const copyText = (text) => {
-        //Crear elemento de text temporal
-        var inputTemporal = document.createElement("input");
-        inputTemporal.setAttribute("value", text);
-        document.body.appendChild(inputTemporal);
-    
-        //Selecciona el input text y lo copia
-        inputTemporal.select();
-        document.execCommand("copy");
-    
-        //Elimina el elemento temporal
-        document.body.removeChild(inputTemporal);
-    
-        alert("Texto copiado al portapapeles: " + text);
-    
-    }
-  
     return (
         <div>
-            <h2>Simbolos de flecha</h2>
-            <div>
+            <h2>Símbolos De Flecha</h2>
+            <div className="button-arrow-container">
                 <button onClick={() => copyText("⬆")}>⬆</button>
                 <button onClick={() => copyText("⬅")}>⬅</button>
+                <button onClick={() => copyText("⮕")}>⮕</button>
+                <button onClick={() => copyText("⬇")}>⬇</button>
+                <button onClick={() => copyText("⬉")}>⬉</button>
+                <button onClick={() => copyText("⬈")}>⬈</button>
+                <button onClick={() => copyText("⬋")}>⬋</button>
+                <button onClick={() => copyText("⬊")}>⬊</button>
+                <button onClick={() => copyText("⬍")}>⬍</button>
+                <button onClick={() => copyText("⬌")}>⬌</button>
+                <button onClick={() => copyText("⭠")}>⭠</button>
+                <button onClick={() => copyText("⭡")}>⭡</button>
+                <button onClick={() => copyText("⭣")}>⭣</button>
+                <button onClick={() => copyText("⭢")}>⭢</button>
+                <button onClick={() => copyText("⭤")}>⭤</button>
+                <button onClick={() => copyText("⭥")}>⭥</button>
+                <button onClick={() => copyText("⮃")}>⮃</button>
+                <button onClick={() => copyText("⮂")}>⮂</button>
+                <button onClick={() => copyText("⮐")}>⮐</button>
+                <button onClick={() => copyText("⮑")}>⮑</button>
+                <button onClick={() => copyText("⬎")}>⬎</button>
+                <button onClick={() => copyText("⬏")}>⬏</button>
+                <button onClick={() => copyText("⬐")}>⬐</button>
+                <button onClick={() => copyText("⬑")}>⬑</button>
+                <button onClick={() => copyText("⬿")}>⬿</button>
+                <button onClick={() => copyText("⬳")}>⬳</button>
+                <button onClick={() => copyText("⬱")}>⬱</button>
+                <button onClick={() => copyText("⭆")}>⭆</button>
+                <button onClick={() => copyText("⭅")}>⭅</button>
+                <button onClick={() => copyText("↞")}>↞</button>
+                <button onClick={() => copyText("↟")}>↟</button>
+                <button onClick={() => copyText("↠")}>↠</button>
+                <button onClick={() => copyText("↡")}>↡</button>
+                <button onClick={() => copyText("↩")}>↩</button>
+                <button onClick={() => copyText("↖")}>↖</button>
+                <button onClick={() => copyText("↘")}>↘</button>
+                <button onClick={() => copyText("↗")}>↗</button>
+                <button onClick={() => copyText("↙")}>↙</button>
+                <button onClick={() => copyText("↕")}>↕</button>
+                <button onClick={() => copyText("↛")}>↛</button>
+                <button onClick={() => copyText("↚")}>↚</button>
+                <button onClick={() => copyText("↝")}>↝</button>
+                <button onClick={() => copyText("↜")}>↜</button>
+                <button onClick={() => copyText("↪")}>↪</button>
+                <button onClick={() => copyText("↣")}>↣</button>
+                <button onClick={() => copyText("↢")}>↢</button>
+                <button onClick={() => copyText("↥")}>↥</button>
+                <button onClick={() => copyText("↤")}>↤</button>
+                <button onClick={() => copyText("↦")}>↦</button>
+                <button onClick={() => copyText("↧")}>↧</button>
+                <button onClick={() => copyText("↨")}>↨</button>
+                <button onClick={() => copyText("↪")}>↪</button>
+                <button onClick={() => copyText("↩")}>↩</button>
+                <button onClick={() => copyText("↱")}>↱</button>
+                <button onClick={() => copyText("↰")}>↰</button>
+                <button onClick={() => copyText("↲")}>↲</button>
+                <button onClick={() => copyText("↬")}>↬</button>
+                <button onClick={() => copyText("↫")}>↫</button>
+                <button onClick={() => copyText("↮")}>↮</button>
+                <button onClick={() => copyText("↯")}>↯</button>
+                <button onClick={() => copyText("↭")}>↭</button>
+                <button onClick={() => copyText("↳")}>↳</button>
+                <button onClick={() => copyText("↴")}>↴</button>
+                <button onClick={() => copyText("↹")}>↹</button>
+                <button onClick={() => copyText("↸")}>↸</button>
+                <button onClick={() => copyText("↷")}>↷</button>
+                <button onClick={() => copyText("↶")}>↶</button>
+                <button onClick={() => copyText("↻")}>↻</button>
+                <button onClick={() => copyText("↺")}>↺</button>
+                <button onClick={() => copyText("⟳")}>⟳</button>
+                <button onClick={() => copyText("⟲")}>⟲</button>
+                <button onClick={() => copyText("↽")}>↽</button>
+                <button onClick={() => copyText("↼")}>↼</button>
+                <button onClick={() => copyText("↿")}>↿</button>
+                <button onClick={() => copyText("↾")}>↾</button>
+                <button onClick={() => copyText("⇁")}>⇁</button>
+                <button onClick={() => copyText("⇀")}>⇀</button>
+                <button onClick={() => copyText("⇃")}>⇃</button>
+                <button onClick={() => copyText("⇂")}>⇂</button>
+                <button onClick={() => copyText("⇄")}>⇄</button>
+                <button onClick={() => copyText("⇅")}>⇅</button>
+                <button onClick={() => copyText("⇆")}>⇆</button>
+                <button onClick={() => copyText("⇉")}>⇉</button>
+                <button onClick={() => copyText("⇇")}>⇇</button>
+                <button onClick={() => copyText("⇊")}>⇊</button>
+                <button onClick={() => copyText("⇈")}>⇈</button>
+                <button onClick={() => copyText("⇌")}>⇌</button>
+                <button onClick={() => copyText("⇋")}>⇋</button>
+                <button onClick={() => copyText("⇐")}>⇐</button>
+                <button onClick={() => copyText("⇑")}>⇑</button>
+                <button onClick={() => copyText("⇒")}>⇒</button>
+                <button onClick={() => copyText("⇓")}>⇓</button>
+                <button onClick={() => copyText("⇔")}>⇔</button>
+                <button onClick={() => copyText("⬁")}>⬁</button>
+                <button onClick={() => copyText("⬀")}>⬀</button>
+                <button onClick={() => copyText("⬄")}>⬄</button>
+                <button onClick={() => copyText("⬃")}>⬃</button>
+                <button onClick={() => copyText("⬂")}>⬂</button>
+                <button onClick={() => copyText("⇏")}>⇏</button>
+                <button onClick={() => copyText("⇍")}>⇍</button>
+                <button onClick={() => copyText("⇎")}>⇎</button>
+                <button onClick={() => copyText("⇕")}>⇕</button>
+                <button onClick={() => copyText("⇙")}>⇙</button>
+                <button onClick={() => copyText("⇖")}>⇖</button>
+                <button onClick={() => copyText("⇗")}>⇗</button>
+                <button onClick={() => copyText("⇘")}>⇘</button>
+                <button onClick={() => copyText("⇛")}>⇛</button>
+                <button onClick={() => copyText("⇚")}>⇚</button>
+                <button onClick={() => copyText("⇝")}>⇝</button>
+                <button onClick={() => copyText("⇜")}>⇜</button>
+                <button onClick={() => copyText("⇟")}>⇟</button>
+                <button onClick={() => copyText("⇞")}>⇞</button>
+                <button onClick={() => copyText("⇠")}>⇠</button>
+                <button onClick={() => copyText("⇣")}>⇣</button>
+                <button onClick={() => copyText("⇡")}>⇡</button>
+                <button onClick={() => copyText("⇢")}>⇢</button>
+                <button onClick={() => copyText("⇥")}>⇥</button>
+                <button onClick={() => copyText("⇤")}>⇤</button>
+                <button onClick={() => copyText("⇿")}>⇿</button>
+                <button onClick={() => copyText("⇽")}>⇽</button>
+                <button onClick={() => copyText("⇾")}>⇾</button>
+                <button onClick={() => copyText("⇨")}>⇨</button>
+                <button onClick={() => copyText("⇦")}>⇦</button>
+                <button onClick={() => copyText("⇧")}>⇧</button>
+                <button onClick={() => copyText("⇪")}>⇪</button>
+                <button onClick={() => copyText("⇩")}>⇩</button>
+                <button onClick={() => copyText("▶")}>▶</button>
+                <button onClick={() => copyText("⌅")}>⌅</button>
+                <button onClick={() => copyText("⌆")}>⌆</button>
+                <button onClick={() => copyText("⌤")}>⌤</button>
+                <button onClick={() => copyText("⏎")}>⏎</button>
+                <button onClick={() => copyText("☇")}>☇</button>
+                <button onClick={() => copyText("☈")}>☈</button>
+                <button onClick={() => copyText("➔")}>➔</button>
+                <button onClick={() => copyText("➘")}>➘</button>
+                <button onClick={() => copyText("➙")}>➙</button>
+                <button onClick={() => copyText("➚")}>➚</button>
+                <button onClick={() => copyText("➛")}>➛</button>
+                <button onClick={() => copyText("➜")}>➜</button>
+                <button onClick={() => copyText("➝")}>➝</button>
+                <button onClick={() => copyText("➞")}>➞</button>
+                <button onClick={() => copyText("➟")}>➟</button>
+                <button onClick={() => copyText("➠")}>➠</button>
+                <button onClick={() => copyText("➡")}>➡</button>
+                <button onClick={() => copyText("➢")}>➢</button>
+                <button onClick={() => copyText("➣")}>➣</button>
+                <button onClick={() => copyText("➤")}>➤</button>
+                <button onClick={() => copyText("➥")}>➥</button>
+                <button onClick={() => copyText("➦")}>➦</button>
+                <button onClick={() => copyText("➧")}>➧</button>
+                <button onClick={() => copyText("➨")}>➨</button>
+                <button onClick={() => copyText("➪")}>➪</button>
+                <button onClick={() => copyText("➩")}>➩</button>
+                <button onClick={() => copyText("➬")}>➬</button>
+                <button onClick={() => copyText("➫")}>➫</button>
+                <button onClick={() => copyText("➮")}>➮</button>
+                <button onClick={() => copyText("➭")}>➭</button>
+                <button onClick={() => copyText("➱")}>➱</button>
+                <button onClick={() => copyText("➯")}>➯</button>
+                <button onClick={() => copyText("➲")}>➲</button>
+                <button onClick={() => copyText("➴")}>➴</button>
+                <button onClick={() => copyText("➳")}>➳</button>
+                <button onClick={() => copyText("➵")}>➵</button>
+                <button onClick={() => copyText("➷")}>➷</button>
+                <button onClick={() => copyText("➶")}>➶</button>
+                <button onClick={() => copyText("➹")}>➹</button>
+                <button onClick={() => copyText("➸")}>➸</button>
+                <button onClick={() => copyText("➻")}>➻</button>
+                <button onClick={() => copyText("➺")}>➺</button>
+                <button onClick={() => copyText("➽")}>➽</button>
+                <button onClick={() => copyText("➼")}>➼</button>
+                <button onClick={() => copyText("➾")}>➾</button>
+                <button onClick={() => copyText("⤴")}>⤴</button>
+                <button onClick={() => copyText("⤵")}>⤵</button>
+                <button onClick={() => copyText("↵")}>↵</button>
+                <button onClick={() => copyText("↓")}>↓</button>
+                <button onClick={() => copyText("↔")}>↔</button>
+                <button onClick={() => copyText("←")}>←</button>
+                <button onClick={() => copyText("→")}>→</button>
+                <button onClick={() => copyText("↑")}>↑</button>
+                <button onClick={() => copyText("⍇")}>⍇</button>
+                <button onClick={() => copyText("⍈")}>⍈</button>
+                <button onClick={() => copyText("⍐")}>⍐</button>
+                <button onClick={() => copyText("⍗")}>⍗</button>
+                <button onClick={() => copyText("⇫")}>⇫</button>
+                <button onClick={() => copyText("⇬")}>⇬</button>
+                <button onClick={() => copyText("⇭")}>⇭</button>
+                <button onClick={() => copyText("⇮")}>⇮</button>
+                <button onClick={() => copyText("⇯")}>⇯</button>
+                <button onClick={() => copyText("⇰")}>⇰</button>
+                <button onClick={() => copyText("⇱")}>⇱</button>
+                <button onClick={() => copyText("⇲")}>⇲</button>
+                <button onClick={() => copyText("⇳")}>⇳</button>
+                <button onClick={() => copyText("⇴")}>⇴</button>
+                <button onClick={() => copyText("⇵")}>⇵</button>
+                <button onClick={() => copyText("⇶")}>⇶</button>
+                <button onClick={() => copyText("⇷")}>⇷</button>
+                <button onClick={() => copyText("⇸")}>⇸</button>
+                <button onClick={() => copyText("⇹")}>⇹</button>
+                <button onClick={() => copyText("⇺")}>⇺</button>
+                <button onClick={() => copyText("⇻")}>⇻</button>
+                <button onClick={() => copyText("⇼")}>⇼</button>
+                <button onClick={() => copyText("𖤂")}>𖤂</button>
+                <button onClick={() => copyText("𖣫")}>𖣫</button>
             </div>
         </div>
     )
