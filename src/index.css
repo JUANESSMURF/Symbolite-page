@@ -9,15 +9,27 @@
 .article {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0px 50px;
-    
+    padding: 0px 60px; 
 }
+
 
 .article h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: 10vh;
+}
+
+/* Estilos navbar */
+
+.nav-bar-container {
+    padding-bottom: 10px;
+}
+
+.nav-bar-container ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
