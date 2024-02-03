@@ -2,6 +2,9 @@
 import { BrowserRouter as Router} from 'react-router-dom';
 import { Article } from './Components/Article.jsx';
 import './index.css'
+import { Navbar } from './Components/Navbar.jsx';
+import { Logo } from "./Components/Logo"
+
 
 
 
@@ -10,7 +13,9 @@ function App() {
 
   return (
     <Router>
-      <div className='mainPage'>       
+      <div className='mainPage'>
+        <Logo/>
+        <Navbar />     
         <Article />
       </div>
     </Router>

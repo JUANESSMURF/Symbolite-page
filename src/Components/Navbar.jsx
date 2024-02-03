@@ -6,24 +6,45 @@ export const Navbar = () => {
             <nav className='nav-bar'>
                 <ul className='nav-bar-menu'>
                     <li>
-                    <Link to="/#symbols1">Symbols1</Link>
+                    <Link to="/#symbols1">Símbolo De Flecha</Link>
                     </li>
                     <li>
-                    <Link to="/#symbols2">Symbols2</Link>
+                    <Link to="/#symbols2">Símbolo De Flecha</Link>
                     </li>
                     <li>
-                    <Link to="/#symbols3">Symbols3</Link>
+                    <Link to="/#symbols3">Símbolo De Flecha</Link>
                     </li>
                     <li>
-                    <Link to="/#symbols4">Symbols4</Link>
+                    <Link to="/#symbols4">Símbolo De Flecha</Link>
                     </li>
                     <li>
-                    <Link to="/#symbols5">Symbols5</Link>
+                    <Link to="/#symbols5">Símbolo De Flecha</Link>
                     </li>
                     <li>
-                    <Link to="/#symbols6">Symbols6</Link>
+                    <Link to="/#symbols6">Símbolo De Flecha</Link>
+                    </li>                
+                </ul>
+            </nav>
+            <nav className='nav-bar'>
+                <ul className='nav-bar-menu'>
+                    <li>
+                    <Link to="/#symbols1">Símbolo De Flecha</Link>
                     </li>
-                                    
+                    <li>
+                    <Link to="/#symbols2">Símbolo De Flecha</Link>
+                    </li>
+                    <li>
+                    <Link to="/#symbols3">Símbolo De Flecha</Link>
+                    </li>
+                    <li>
+                    <Link to="/#symbols4">Símbolo De Flecha</Link>
+                    </li>
+                    <li>
+                    <Link to="/#symbols5">Símbolo De Flecha</Link>
+                    </li>
+                    <li>
+                    <Link to="/#symbols6">Símbolo De Flecha</Link>
+                    </li>                
                 </ul>
             </nav>
         </div>

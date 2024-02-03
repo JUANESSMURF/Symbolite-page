@@ -35,6 +35,8 @@
     justify-content: center;
     align-items: center;
     padding: 20px 0px;
+    background-color: rgb(255, 255, 255);
+
     
 }
 .title-container h1:nth-child(1) {
@@ -60,21 +62,31 @@
 
 .nav-bar {
     width: 100%;
-    padding: 20px 0px;
-    
+    padding: 10px 20px;
+    background-color: rgb(255, 164, 164);
+    max-width: 1000px;
+    margin: 0 auto;
+
 }
 
 .nav-bar-container ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    list-style: none;
     width: 90%;
+    
 }
 
 /* menu */
-.nav-bar-menu {
+.nav-bar-menu li {
+    list-style: none;
+    margin: 5px; /*Size adicional al navbar, se puede quitar*/
+}
 
+.nav-bar-menu li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: small;
 }
 
 /* Estilos buttons */
