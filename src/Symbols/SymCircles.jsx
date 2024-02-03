@@ -7,9 +7,9 @@ export const SymCircles = () => {
     return (
         <div>
             <h2>Símbolos De Círculos</h2>
-            <div>
-                <button onClick={() => copyText("")}></button>
-                <button onClick={() => copyText("")}></button>
+            <div className="button-circle-container">
+                <button className="button-circle" onClick={() => copyText("○")}>○</button>
+                <button className="button-circle" onClick={() => copyText("◌")}>◌</button>
             </div>
         </div>
     )

@@ -1,4 +1,3 @@
-import React from 'react';
 import { copyText } from "../Logic"
 
 
@@ -9,210 +8,210 @@ export const SymArrows = () => {
         <div>
             <h2>Símbolos De Flecha</h2>
             <div className="button-arrow-container">
-                <button onClick={() => copyText("⬆")}>⬆</button>
-                <button onClick={() => copyText("⬅")}>⬅</button>
-                <button onClick={() => copyText("⮕")}>⮕</button>
-                <button onClick={() => copyText("⬇")}>⬇</button>
-                <button onClick={() => copyText("⬉")}>⬉</button>
-                <button onClick={() => copyText("⬈")}>⬈</button>
-                <button onClick={() => copyText("⬋")}>⬋</button>
-                <button onClick={() => copyText("⬊")}>⬊</button>
-                <button onClick={() => copyText("⬍")}>⬍</button>
-                <button onClick={() => copyText("⬌")}>⬌</button>
-                <button onClick={() => copyText("⭠")}>⭠</button>
-                <button onClick={() => copyText("⭡")}>⭡</button>
-                <button onClick={() => copyText("⭣")}>⭣</button>
-                <button onClick={() => copyText("⭢")}>⭢</button>
-                <button onClick={() => copyText("⭤")}>⭤</button>
-                <button onClick={() => copyText("⭥")}>⭥</button>
-                <button onClick={() => copyText("⮃")}>⮃</button>
-                <button onClick={() => copyText("⮂")}>⮂</button>
-                <button onClick={() => copyText("⮐")}>⮐</button>
-                <button onClick={() => copyText("⮑")}>⮑</button>
-                <button onClick={() => copyText("⬎")}>⬎</button>
-                <button onClick={() => copyText("⬏")}>⬏</button>
-                <button onClick={() => copyText("⬐")}>⬐</button>
-                <button onClick={() => copyText("⬑")}>⬑</button>
-                <button onClick={() => copyText("⬿")}>⬿</button>
-                <button onClick={() => copyText("⬳")}>⬳</button>
-                <button onClick={() => copyText("⬱")}>⬱</button>
-                <button onClick={() => copyText("⭆")}>⭆</button>
-                <button onClick={() => copyText("⭅")}>⭅</button>
-                <button onClick={() => copyText("↞")}>↞</button>
-                <button onClick={() => copyText("↟")}>↟</button>
-                <button onClick={() => copyText("↠")}>↠</button>
-                <button onClick={() => copyText("↡")}>↡</button>
-                <button onClick={() => copyText("↩")}>↩</button>
-                <button onClick={() => copyText("↖")}>↖</button>
-                <button onClick={() => copyText("↘")}>↘</button>
-                <button onClick={() => copyText("↗")}>↗</button>
-                <button onClick={() => copyText("↙")}>↙</button>
-                <button onClick={() => copyText("↕")}>↕</button>
-                <button onClick={() => copyText("↛")}>↛</button>
-                <button onClick={() => copyText("↚")}>↚</button>
-                <button onClick={() => copyText("↝")}>↝</button>
-                <button onClick={() => copyText("↜")}>↜</button>
-                <button onClick={() => copyText("↪")}>↪</button>
-                <button onClick={() => copyText("↣")}>↣</button>
-                <button onClick={() => copyText("↢")}>↢</button>
-                <button onClick={() => copyText("↥")}>↥</button>
-                <button onClick={() => copyText("↤")}>↤</button>
-                <button onClick={() => copyText("↦")}>↦</button>
-                <button onClick={() => copyText("↧")}>↧</button>
-                <button onClick={() => copyText("↨")}>↨</button>
-                <button onClick={() => copyText("↪")}>↪</button>
-                <button onClick={() => copyText("↩")}>↩</button>
-                <button onClick={() => copyText("↱")}>↱</button>
-                <button onClick={() => copyText("↰")}>↰</button>
-                <button onClick={() => copyText("↲")}>↲</button>
-                <button onClick={() => copyText("↬")}>↬</button>
-                <button onClick={() => copyText("↫")}>↫</button>
-                <button onClick={() => copyText("↮")}>↮</button>
-                <button onClick={() => copyText("↯")}>↯</button>
-                <button onClick={() => copyText("↭")}>↭</button>
-                <button onClick={() => copyText("↳")}>↳</button>
-                <button onClick={() => copyText("↴")}>↴</button>
-                <button onClick={() => copyText("↹")}>↹</button>
-                <button onClick={() => copyText("↸")}>↸</button>
-                <button onClick={() => copyText("↷")}>↷</button>
-                <button onClick={() => copyText("↶")}>↶</button>
-                <button onClick={() => copyText("↻")}>↻</button>
-                <button onClick={() => copyText("↺")}>↺</button>
-                <button onClick={() => copyText("⟳")}>⟳</button>
-                <button onClick={() => copyText("⟲")}>⟲</button>
-                <button onClick={() => copyText("↽")}>↽</button>
-                <button onClick={() => copyText("↼")}>↼</button>
-                <button onClick={() => copyText("↿")}>↿</button>
-                <button onClick={() => copyText("↾")}>↾</button>
-                <button onClick={() => copyText("⇁")}>⇁</button>
-                <button onClick={() => copyText("⇀")}>⇀</button>
-                <button onClick={() => copyText("⇃")}>⇃</button>
-                <button onClick={() => copyText("⇂")}>⇂</button>
-                <button onClick={() => copyText("⇄")}>⇄</button>
-                <button onClick={() => copyText("⇅")}>⇅</button>
-                <button onClick={() => copyText("⇆")}>⇆</button>
-                <button onClick={() => copyText("⇉")}>⇉</button>
-                <button onClick={() => copyText("⇇")}>⇇</button>
-                <button onClick={() => copyText("⇊")}>⇊</button>
-                <button onClick={() => copyText("⇈")}>⇈</button>
-                <button onClick={() => copyText("⇌")}>⇌</button>
-                <button onClick={() => copyText("⇋")}>⇋</button>
-                <button onClick={() => copyText("⇐")}>⇐</button>
-                <button onClick={() => copyText("⇑")}>⇑</button>
-                <button onClick={() => copyText("⇒")}>⇒</button>
-                <button onClick={() => copyText("⇓")}>⇓</button>
-                <button onClick={() => copyText("⇔")}>⇔</button>
-                <button onClick={() => copyText("⬁")}>⬁</button>
-                <button onClick={() => copyText("⬀")}>⬀</button>
-                <button onClick={() => copyText("⬄")}>⬄</button>
-                <button onClick={() => copyText("⬃")}>⬃</button>
-                <button onClick={() => copyText("⬂")}>⬂</button>
-                <button onClick={() => copyText("⇏")}>⇏</button>
-                <button onClick={() => copyText("⇍")}>⇍</button>
-                <button onClick={() => copyText("⇎")}>⇎</button>
-                <button onClick={() => copyText("⇕")}>⇕</button>
-                <button onClick={() => copyText("⇙")}>⇙</button>
-                <button onClick={() => copyText("⇖")}>⇖</button>
-                <button onClick={() => copyText("⇗")}>⇗</button>
-                <button onClick={() => copyText("⇘")}>⇘</button>
-                <button onClick={() => copyText("⇛")}>⇛</button>
-                <button onClick={() => copyText("⇚")}>⇚</button>
-                <button onClick={() => copyText("⇝")}>⇝</button>
-                <button onClick={() => copyText("⇜")}>⇜</button>
-                <button onClick={() => copyText("⇟")}>⇟</button>
-                <button onClick={() => copyText("⇞")}>⇞</button>
-                <button onClick={() => copyText("⇠")}>⇠</button>
-                <button onClick={() => copyText("⇣")}>⇣</button>
-                <button onClick={() => copyText("⇡")}>⇡</button>
-                <button onClick={() => copyText("⇢")}>⇢</button>
-                <button onClick={() => copyText("⇥")}>⇥</button>
-                <button onClick={() => copyText("⇤")}>⇤</button>
-                <button onClick={() => copyText("⇿")}>⇿</button>
-                <button onClick={() => copyText("⇽")}>⇽</button>
-                <button onClick={() => copyText("⇾")}>⇾</button>
-                <button onClick={() => copyText("⇨")}>⇨</button>
-                <button onClick={() => copyText("⇦")}>⇦</button>
-                <button onClick={() => copyText("⇧")}>⇧</button>
-                <button onClick={() => copyText("⇪")}>⇪</button>
-                <button onClick={() => copyText("⇩")}>⇩</button>
-                <button onClick={() => copyText("▶")}>▶</button>
-                <button onClick={() => copyText("⌅")}>⌅</button>
-                <button onClick={() => copyText("⌆")}>⌆</button>
-                <button onClick={() => copyText("⌤")}>⌤</button>
-                <button onClick={() => copyText("⏎")}>⏎</button>
-                <button onClick={() => copyText("☇")}>☇</button>
-                <button onClick={() => copyText("☈")}>☈</button>
-                <button onClick={() => copyText("➔")}>➔</button>
-                <button onClick={() => copyText("➘")}>➘</button>
-                <button onClick={() => copyText("➙")}>➙</button>
-                <button onClick={() => copyText("➚")}>➚</button>
-                <button onClick={() => copyText("➛")}>➛</button>
-                <button onClick={() => copyText("➜")}>➜</button>
-                <button onClick={() => copyText("➝")}>➝</button>
-                <button onClick={() => copyText("➞")}>➞</button>
-                <button onClick={() => copyText("➟")}>➟</button>
-                <button onClick={() => copyText("➠")}>➠</button>
-                <button onClick={() => copyText("➡")}>➡</button>
-                <button onClick={() => copyText("➢")}>➢</button>
-                <button onClick={() => copyText("➣")}>➣</button>
-                <button onClick={() => copyText("➤")}>➤</button>
-                <button onClick={() => copyText("➥")}>➥</button>
-                <button onClick={() => copyText("➦")}>➦</button>
-                <button onClick={() => copyText("➧")}>➧</button>
-                <button onClick={() => copyText("➨")}>➨</button>
-                <button onClick={() => copyText("➪")}>➪</button>
-                <button onClick={() => copyText("➩")}>➩</button>
-                <button onClick={() => copyText("➬")}>➬</button>
-                <button onClick={() => copyText("➫")}>➫</button>
-                <button onClick={() => copyText("➮")}>➮</button>
-                <button onClick={() => copyText("➭")}>➭</button>
-                <button onClick={() => copyText("➱")}>➱</button>
-                <button onClick={() => copyText("➯")}>➯</button>
-                <button onClick={() => copyText("➲")}>➲</button>
-                <button onClick={() => copyText("➴")}>➴</button>
-                <button onClick={() => copyText("➳")}>➳</button>
-                <button onClick={() => copyText("➵")}>➵</button>
-                <button onClick={() => copyText("➷")}>➷</button>
-                <button onClick={() => copyText("➶")}>➶</button>
-                <button onClick={() => copyText("➹")}>➹</button>
-                <button onClick={() => copyText("➸")}>➸</button>
-                <button onClick={() => copyText("➻")}>➻</button>
-                <button onClick={() => copyText("➺")}>➺</button>
-                <button onClick={() => copyText("➽")}>➽</button>
-                <button onClick={() => copyText("➼")}>➼</button>
-                <button onClick={() => copyText("➾")}>➾</button>
-                <button onClick={() => copyText("⤴")}>⤴</button>
-                <button onClick={() => copyText("⤵")}>⤵</button>
-                <button onClick={() => copyText("↵")}>↵</button>
-                <button onClick={() => copyText("↓")}>↓</button>
-                <button onClick={() => copyText("↔")}>↔</button>
-                <button onClick={() => copyText("←")}>←</button>
-                <button onClick={() => copyText("→")}>→</button>
-                <button onClick={() => copyText("↑")}>↑</button>
-                <button onClick={() => copyText("⍇")}>⍇</button>
-                <button onClick={() => copyText("⍈")}>⍈</button>
-                <button onClick={() => copyText("⍐")}>⍐</button>
-                <button onClick={() => copyText("⍗")}>⍗</button>
-                <button onClick={() => copyText("⇫")}>⇫</button>
-                <button onClick={() => copyText("⇬")}>⇬</button>
-                <button onClick={() => copyText("⇭")}>⇭</button>
-                <button onClick={() => copyText("⇮")}>⇮</button>
-                <button onClick={() => copyText("⇯")}>⇯</button>
-                <button onClick={() => copyText("⇰")}>⇰</button>
-                <button onClick={() => copyText("⇱")}>⇱</button>
-                <button onClick={() => copyText("⇲")}>⇲</button>
-                <button onClick={() => copyText("⇳")}>⇳</button>
-                <button onClick={() => copyText("⇴")}>⇴</button>
-                <button onClick={() => copyText("⇵")}>⇵</button>
-                <button onClick={() => copyText("⇶")}>⇶</button>
-                <button onClick={() => copyText("⇷")}>⇷</button>
-                <button onClick={() => copyText("⇸")}>⇸</button>
-                <button onClick={() => copyText("⇹")}>⇹</button>
-                <button onClick={() => copyText("⇺")}>⇺</button>
-                <button onClick={() => copyText("⇻")}>⇻</button>
-                <button onClick={() => copyText("⇼")}>⇼</button>
-                <button onClick={() => copyText("𖤂")}>𖤂</button>
-                <button onClick={() => copyText("𖣫")}>𖣫</button>
+                <button className="button-arrow" onClick={() => copyText("⬆")}>⬆</button>
+                <button className="button-arrow" onClick={() => copyText("⬅")}>⬅</button>
+                <button className="button-arrow" onClick={() => copyText("⮕")}>⮕</button>
+                <button className="button-arrow" onClick={() => copyText("⬇")}>⬇</button>
+                <button className="button-arrow" onClick={() => copyText("⬉")}>⬉</button>
+                <button className="button-arrow" onClick={() => copyText("⬈")}>⬈</button>
+                <button className="button-arrow" onClick={() => copyText("⬋")}>⬋</button>
+                <button className="button-arrow" onClick={() => copyText("⬊")}>⬊</button>
+                <button className="button-arrow" onClick={() => copyText("⬍")}>⬍</button>
+                <button className="button-arrow" onClick={() => copyText("⬌")}>⬌</button>
+                <button className="button-arrow" onClick={() => copyText("⭠")}>⭠</button>
+                <button className="button-arrow" onClick={() => copyText("⭡")}>⭡</button>
+                <button className="button-arrow" onClick={() => copyText("⭣")}>⭣</button>
+                <button className="button-arrow" onClick={() => copyText("⭢")}>⭢</button>
+                <button className="button-arrow" onClick={() => copyText("⭤")}>⭤</button>
+                <button className="button-arrow" onClick={() => copyText("⭥")}>⭥</button>
+                <button className="button-arrow" onClick={() => copyText("⮃")}>⮃</button>
+                <button className="button-arrow" onClick={() => copyText("⮂")}>⮂</button>
+                <button className="button-arrow" onClick={() => copyText("⮐")}>⮐</button>
+                <button className="button-arrow" onClick={() => copyText("⮑")}>⮑</button>
+                <button className="button-arrow" onClick={() => copyText("⬎")}>⬎</button>
+                <button className="button-arrow" onClick={() => copyText("⬏")}>⬏</button>
+                <button className="button-arrow" onClick={() => copyText("⬐")}>⬐</button>
+                <button className="button-arrow" onClick={() => copyText("⬑")}>⬑</button>
+                <button className="button-arrow" onClick={() => copyText("⬿")}>⬿</button>
+                <button className="button-arrow" onClick={() => copyText("⬳")}>⬳</button>
+                <button className="button-arrow" onClick={() => copyText("⬱")}>⬱</button>
+                <button className="button-arrow" onClick={() => copyText("⭆")}>⭆</button>
+                <button className="button-arrow" onClick={() => copyText("⭅")}>⭅</button>
+                <button className="button-arrow" onClick={() => copyText("↞")}>↞</button>
+                <button className="button-arrow" onClick={() => copyText("↟")}>↟</button>
+                <button className="button-arrow" onClick={() => copyText("↠")}>↠</button>
+                <button className="button-arrow" onClick={() => copyText("↡")}>↡</button>
+                <button className="button-arrow" onClick={() => copyText("↩")}>↩</button>
+                <button className="button-arrow" onClick={() => copyText("↖")}>↖</button>
+                <button className="button-arrow" onClick={() => copyText("↘")}>↘</button>
+                <button className="button-arrow" onClick={() => copyText("↗")}>↗</button>
+                <button className="button-arrow" onClick={() => copyText("↙")}>↙</button>
+                <button className="button-arrow" onClick={() => copyText("↕")}>↕</button>
+                <button className="button-arrow" onClick={() => copyText("↛")}>↛</button>
+                <button className="button-arrow" onClick={() => copyText("↚")}>↚</button>
+                <button className="button-arrow" onClick={() => copyText("↝")}>↝</button>
+                <button className="button-arrow" onClick={() => copyText("↜")}>↜</button>
+                <button className="button-arrow" onClick={() => copyText("↪")}>↪</button>
+                <button className="button-arrow" onClick={() => copyText("↣")}>↣</button>
+                <button className="button-arrow" onClick={() => copyText("↢")}>↢</button>
+                <button className="button-arrow" onClick={() => copyText("↥")}>↥</button>
+                <button className="button-arrow" onClick={() => copyText("↤")}>↤</button>
+                <button className="button-arrow" onClick={() => copyText("↦")}>↦</button>
+                <button className="button-arrow" onClick={() => copyText("↧")}>↧</button>
+                <button className="button-arrow" onClick={() => copyText("↨")}>↨</button>
+                <button className="button-arrow" onClick={() => copyText("↪")}>↪</button>
+                <button className="button-arrow" onClick={() => copyText("↩")}>↩</button>
+                <button className="button-arrow" onClick={() => copyText("↱")}>↱</button>
+                <button className="button-arrow" onClick={() => copyText("↰")}>↰</button>
+                <button className="button-arrow" onClick={() => copyText("↲")}>↲</button>
+                <button className="button-arrow" onClick={() => copyText("↬")}>↬</button>
+                <button className="button-arrow" onClick={() => copyText("↫")}>↫</button>
+                <button className="button-arrow" onClick={() => copyText("↮")}>↮</button>
+                <button className="button-arrow" onClick={() => copyText("↯")}>↯</button>
+                <button className="button-arrow" onClick={() => copyText("↭")}>↭</button>
+                <button className="button-arrow" onClick={() => copyText("↳")}>↳</button>
+                <button className="button-arrow" onClick={() => copyText("↴")}>↴</button>
+                <button className="button-arrow" onClick={() => copyText("↹")}>↹</button>
+                <button className="button-arrow" onClick={() => copyText("↸")}>↸</button>
+                <button className="button-arrow" onClick={() => copyText("↷")}>↷</button>
+                <button className="button-arrow" onClick={() => copyText("↶")}>↶</button>
+                <button className="button-arrow" onClick={() => copyText("↻")}>↻</button>
+                <button className="button-arrow" onClick={() => copyText("↺")}>↺</button>
+                <button className="button-arrow" onClick={() => copyText("⟳")}>⟳</button>
+                <button className="button-arrow" onClick={() => copyText("⟲")}>⟲</button>
+                <button className="button-arrow" onClick={() => copyText("↽")}>↽</button>
+                <button className="button-arrow" onClick={() => copyText("↼")}>↼</button>
+                <button className="button-arrow" onClick={() => copyText("↿")}>↿</button>
+                <button className="button-arrow" onClick={() => copyText("↾")}>↾</button>
+                <button className="button-arrow" onClick={() => copyText("⇁")}>⇁</button>
+                <button className="button-arrow" onClick={() => copyText("⇀")}>⇀</button>
+                <button className="button-arrow" onClick={() => copyText("⇃")}>⇃</button>
+                <button className="button-arrow" onClick={() => copyText("⇂")}>⇂</button>
+                <button className="button-arrow" onClick={() => copyText("⇄")}>⇄</button>
+                <button className="button-arrow" onClick={() => copyText("⇅")}>⇅</button>
+                <button className="button-arrow" onClick={() => copyText("⇆")}>⇆</button>
+                <button className="button-arrow" onClick={() => copyText("⇉")}>⇉</button>
+                <button className="button-arrow" onClick={() => copyText("⇇")}>⇇</button>
+                <button className="button-arrow" onClick={() => copyText("⇊")}>⇊</button>
+                <button className="button-arrow" onClick={() => copyText("⇈")}>⇈</button>
+                <button className="button-arrow" onClick={() => copyText("⇌")}>⇌</button>
+                <button className="button-arrow" onClick={() => copyText("⇋")}>⇋</button>
+                <button className="button-arrow" onClick={() => copyText("⇐")}>⇐</button>
+                <button className="button-arrow" onClick={() => copyText("⇑")}>⇑</button>
+                <button className="button-arrow" onClick={() => copyText("⇒")}>⇒</button>
+                <button className="button-arrow" onClick={() => copyText("⇓")}>⇓</button>
+                <button className="button-arrow" onClick={() => copyText("⇔")}>⇔</button>
+                <button className="button-arrow" onClick={() => copyText("⬁")}>⬁</button>
+                <button className="button-arrow" onClick={() => copyText("⬀")}>⬀</button>
+                <button className="button-arrow" onClick={() => copyText("⬄")}>⬄</button>
+                <button className="button-arrow" onClick={() => copyText("⬃")}>⬃</button>
+                <button className="button-arrow" onClick={() => copyText("⬂")}>⬂</button>
+                <button className="button-arrow" onClick={() => copyText("⇏")}>⇏</button>
+                <button className="button-arrow" onClick={() => copyText("⇍")}>⇍</button>
+                <button className="button-arrow" onClick={() => copyText("⇎")}>⇎</button>
+                <button className="button-arrow" onClick={() => copyText("⇕")}>⇕</button>
+                <button className="button-arrow" onClick={() => copyText("⇙")}>⇙</button>
+                <button className="button-arrow" onClick={() => copyText("⇖")}>⇖</button>
+                <button className="button-arrow" onClick={() => copyText("⇗")}>⇗</button>
+                <button className="button-arrow" onClick={() => copyText("⇘")}>⇘</button>
+                <button className="button-arrow" onClick={() => copyText("⇛")}>⇛</button>
+                <button className="button-arrow" onClick={() => copyText("⇚")}>⇚</button>
+                <button className="button-arrow" onClick={() => copyText("⇝")}>⇝</button>
+                <button className="button-arrow" onClick={() => copyText("⇜")}>⇜</button>
+                <button className="button-arrow" onClick={() => copyText("⇟")}>⇟</button>
+                <button className="button-arrow" onClick={() => copyText("⇞")}>⇞</button>
+                <button className="button-arrow" onClick={() => copyText("⇠")}>⇠</button>
+                <button className="button-arrow" onClick={() => copyText("⇣")}>⇣</button>
+                <button className="button-arrow" onClick={() => copyText("⇡")}>⇡</button>
+                <button className="button-arrow" onClick={() => copyText("⇢")}>⇢</button>
+                <button className="button-arrow" onClick={() => copyText("⇥")}>⇥</button>
+                <button className="button-arrow" onClick={() => copyText("⇤")}>⇤</button>
+                <button className="button-arrow" onClick={() => copyText("⇿")}>⇿</button>
+                <button className="button-arrow" onClick={() => copyText("⇽")}>⇽</button>
+                <button className="button-arrow" onClick={() => copyText("⇾")}>⇾</button>
+                <button className="button-arrow" onClick={() => copyText("⇨")}>⇨</button>
+                <button className="button-arrow" onClick={() => copyText("⇦")}>⇦</button>
+                <button className="button-arrow" onClick={() => copyText("⇧")}>⇧</button>
+                <button className="button-arrow" onClick={() => copyText("⇪")}>⇪</button>
+                <button className="button-arrow" onClick={() => copyText("⇩")}>⇩</button>
+                <button className="button-arrow" onClick={() => copyText("▶")}>▶</button>
+                <button className="button-arrow" onClick={() => copyText("⌅")}>⌅</button>
+                <button className="button-arrow" onClick={() => copyText("⌆")}>⌆</button>
+                <button className="button-arrow" onClick={() => copyText("⌤")}>⌤</button>
+                <button className="button-arrow" onClick={() => copyText("⏎")}>⏎</button>
+                <button className="button-arrow" onClick={() => copyText("☇")}>☇</button>
+                <button className="button-arrow" onClick={() => copyText("☈")}>☈</button>
+                <button className="button-arrow" onClick={() => copyText("➔")}>➔</button>
+                <button className="button-arrow" onClick={() => copyText("➘")}>➘</button>
+                <button className="button-arrow" onClick={() => copyText("➙")}>➙</button>
+                <button className="button-arrow" onClick={() => copyText("➚")}>➚</button>
+                <button className="button-arrow" onClick={() => copyText("➛")}>➛</button>
+                <button className="button-arrow" onClick={() => copyText("➜")}>➜</button>
+                <button className="button-arrow" onClick={() => copyText("➝")}>➝</button>
+                <button className="button-arrow" onClick={() => copyText("➞")}>➞</button>
+                <button className="button-arrow" onClick={() => copyText("➟")}>➟</button>
+                <button className="button-arrow" onClick={() => copyText("➠")}>➠</button>
+                <button className="button-arrow" onClick={() => copyText("➡")}>➡</button>
+                <button className="button-arrow" onClick={() => copyText("➢")}>➢</button>
+                <button className="button-arrow" onClick={() => copyText("➣")}>➣</button>
+                <button className="button-arrow" onClick={() => copyText("➤")}>➤</button>
+                <button className="button-arrow" onClick={() => copyText("➥")}>➥</button>
+                <button className="button-arrow" onClick={() => copyText("➦")}>➦</button>
+                <button className="button-arrow" onClick={() => copyText("➧")}>➧</button>
+                <button className="button-arrow" onClick={() => copyText("➨")}>➨</button>
+                <button className="button-arrow" onClick={() => copyText("➪")}>➪</button>
+                <button className="button-arrow" onClick={() => copyText("➩")}>➩</button>
+                <button className="button-arrow" onClick={() => copyText("➬")}>➬</button>
+                <button className="button-arrow" onClick={() => copyText("➫")}>➫</button>
+                <button className="button-arrow" onClick={() => copyText("➮")}>➮</button>
+                <button className="button-arrow" onClick={() => copyText("➭")}>➭</button>
+                <button className="button-arrow" onClick={() => copyText("➱")}>➱</button>
+                <button className="button-arrow" onClick={() => copyText("➯")}>➯</button>
+                <button className="button-arrow" onClick={() => copyText("➲")}>➲</button>
+                <button className="button-arrow" onClick={() => copyText("➴")}>➴</button>
+                <button className="button-arrow" onClick={() => copyText("➳")}>➳</button>
+                <button className="button-arrow" onClick={() => copyText("➵")}>➵</button>
+                <button className="button-arrow" onClick={() => copyText("➷")}>➷</button>
+                <button className="button-arrow" onClick={() => copyText("➶")}>➶</button>
+                <button className="button-arrow" onClick={() => copyText("➹")}>➹</button>
+                <button className="button-arrow" onClick={() => copyText("➸")}>➸</button>
+                <button className="button-arrow" onClick={() => copyText("➻")}>➻</button>
+                <button className="button-arrow" onClick={() => copyText("➺")}>➺</button>
+                <button className="button-arrow" onClick={() => copyText("➽")}>➽</button>
+                <button className="button-arrow" onClick={() => copyText("➼")}>➼</button>
+                <button className="button-arrow" onClick={() => copyText("➾")}>➾</button>
+                <button className="button-arrow" onClick={() => copyText("⤴")}>⤴</button>
+                <button className="button-arrow" onClick={() => copyText("⤵")}>⤵</button>
+                <button className="button-arrow" onClick={() => copyText("↵")}>↵</button>
+                <button className="button-arrow" onClick={() => copyText("↓")}>↓</button>
+                <button className="button-arrow" onClick={() => copyText("↔")}>↔</button>
+                <button className="button-arrow" onClick={() => copyText("←")}>←</button>
+                <button className="button-arrow" onClick={() => copyText("→")}>→</button>
+                <button className="button-arrow" onClick={() => copyText("↑")}>↑</button>
+                <button className="button-arrow" onClick={() => copyText("⍇")}>⍇</button>
+                <button className="button-arrow" onClick={() => copyText("⍈")}>⍈</button>
+                <button className="button-arrow" onClick={() => copyText("⍐")}>⍐</button>
+                <button className="button-arrow" onClick={() => copyText("⍗")}>⍗</button>
+                <button className="button-arrow" onClick={() => copyText("⇫")}>⇫</button>
+                <button className="button-arrow" onClick={() => copyText("⇬")}>⇬</button>
+                <button className="button-arrow" onClick={() => copyText("⇭")}>⇭</button>
+                <button className="button-arrow" onClick={() => copyText("⇮")}>⇮</button>
+                <button className="button-arrow" onClick={() => copyText("⇯")}>⇯</button>
+                <button className="button-arrow" onClick={() => copyText("⇰")}>⇰</button>
+                <button className="button-arrow" onClick={() => copyText("⇱")}>⇱</button>
+                <button className="button-arrow" onClick={() => copyText("⇲")}>⇲</button>
+                <button className="button-arrow" onClick={() => copyText("⇳")}>⇳</button>
+                <button className="button-arrow" onClick={() => copyText("⇴")}>⇴</button>
+                <button className="button-arrow" onClick={() => copyText("⇵")}>⇵</button>
+                <button className="button-arrow" onClick={() => copyText("⇶")}>⇶</button>
+                <button className="button-arrow" onClick={() => copyText("⇷")}>⇷</button>
+                <button className="button-arrow" onClick={() => copyText("⇸")}>⇸</button>
+                <button className="button-arrow" onClick={() => copyText("⇹")}>⇹</button>
+                <button className="button-arrow" onClick={() => copyText("⇺")}>⇺</button>
+                <button className="button-arrow" onClick={() => copyText("⇻")}>⇻</button>
+                <button className="button-arrow" onClick={() => copyText("⇼")}>⇼</button>
+                <button className="button-arrow" onClick={() => copyText("𖤂")}>𖤂</button>
+                <button className="button-arrow" onClick={() => copyText("𖣫")}>𖣫</button>
             </div>
         </div>
     )

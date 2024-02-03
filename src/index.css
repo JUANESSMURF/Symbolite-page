@@ -1,17 +1,22 @@
-
+* {
+    margin: 0;
+    
+}
 
 .mainPage {
     margin: 0;
     padding: 0;
-    
+    background-image: url("../background-page.png");
+    background-size: 'cover';
     
 }
 
 .article {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0px 100px;
+    padding: 0px 20px;
     font-family: system-ui;
+    background-color: white;
 }
 
 
@@ -19,31 +24,60 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
+    height: 6vh;
+    margin: 0px;
+
+}
+/* Estilos title */
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    
+}
+.title-container h1:nth-child(1) {
+    font-family:"Lobster", sans-serif;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+}
+
+.title-container h1:nth-child(2) {
+    background-color: salmon;
+    border-radius: 15%;
+    background-size: 1px;
+    color: white;
+    margin-left: 3px;
+    font-size: 40px;
+    padding: 2px;
 }
 
 /* Estilos navbar */
 
 .nav-bar-container {
     padding-bottom: 10px;
+    
 }
 
 .nav-bar-container ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    list-style: none;
 }
 
 /* Estilos buttons */
 
-.button-arrow-container {
+.button-arrow-container, .button-circle-container {
     display: grid;
     grid-template-columns: repeat(18, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 4px; /* Espacio entre los botones */
 }
 
-.button-arrow-container button {
+.button-arrow-container button, .button-circle-container button {
     width: 6vh;
     height: 5vh;
     font-size: 20px;
@@ -55,11 +89,11 @@
     cursor: pointer;
 }
 
-.button-arrow-container button:hover {
+.button-arrow-container button:hover, .button-circle-container button:hover {
    background-color: rgb(226, 226, 226);
 }
 
-.button-arrow-container button:active {
+.button-arrow-container button:active, .button-circle-container button:active {
     animation: clicAnimacion 0.15s ease-in-out;
     background-color: rgb(199, 199, 199);
 }

@@ -2,6 +2,8 @@
 
 export const Logo = () => {
     return (
-        <h1>SymboLite</h1>
+        <div className="title-container">
+            <h1>Symbo</h1><h1>Lïtê</h1>         
+        </div>
     )
 }
