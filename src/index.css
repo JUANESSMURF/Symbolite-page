@@ -24,7 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 6vh;
+    min-height: 6vh;
     margin: 0px;
 
 }
@@ -34,9 +34,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0px;
     background-color: rgb(255, 255, 255);
-
+    padding-right: 40px;
     
 }
 .title-container h1:nth-child(1) {
@@ -61,32 +60,37 @@
 
 
 .nav-bar {
+    display: flex;
     width: 100%;
-    padding: 10px 20px;
-    background-color: rgb(255, 164, 164);
-    max-width: 1000px;
-    margin: 0 auto;
+    padding: 10px 0px;
+    background-color: rgb(255, 255, 255);
+    
 
 }
 
-.nav-bar-container ul {
+.nav-bar-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
     
 }
+
+/* .nav-bar-container ul {
+
+    
+} */
 
 /* menu */
 .nav-bar-menu li {
     list-style: none;
     margin: 5px; /*Size adicional al navbar, se puede quitar*/
+    min-width: 100%;
 }
+
 
 .nav-bar-menu li a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: small;
+    
 }
 
 /* Estilos buttons */

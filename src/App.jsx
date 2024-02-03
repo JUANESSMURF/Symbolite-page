@@ -14,7 +14,6 @@ function App() {
   return (
     <Router>
       <div className='mainPage'>
-        <Logo/>
         <Navbar />     
         <Article />
       </div>
