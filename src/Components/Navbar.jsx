@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom'
 export const Navbar = () => {
     return (
         <div className='nav-bar-container'>
-            <nav className=''>
-                <ul>
+            <nav className='nav-bar'>
+                <ul className='nav-bar-menu'>
                     <li>
                     <Link to="/#symbols1">Symbols1</Link>
                     </li>
@@ -22,7 +22,8 @@ export const Navbar = () => {
                     </li>
                     <li>
                     <Link to="/#symbols6">Symbols6</Link>
-                    </li>                   
+                    </li>
+                                    
                 </ul>
             </nav>
         </div>

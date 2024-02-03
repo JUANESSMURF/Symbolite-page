@@ -56,8 +56,11 @@
 
 /* Estilos navbar */
 
-.nav-bar-container {
-    padding-bottom: 10px;
+
+
+.nav-bar {
+    width: 100%;
+    padding: 20px 0px;
     
 }
 
@@ -66,6 +69,12 @@
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    width: 90%;
+}
+
+/* menu */
+.nav-bar-menu {
+
 }
 
 /* Estilos buttons */
@@ -78,8 +87,8 @@
 }
 
 .button-arrow-container button, .button-circle-container button {
-    width: 6vh;
-    height: 5vh;
+    min-width: 6vh;
+    min-height: 5vh;
     font-size: 20px;
     font-family: system-ui;
     border: 1px solid rgb(199, 199, 199);
