@@ -5,7 +5,7 @@ import { copyText } from "../Logic"
 export const SymArrows = () => {
 
     return (
-        <div>
+        <div className="buttons-container">
             <h2>Símbolos De Flecha</h2>
             <div className="button-arrow-container">
                 <button className="button-arrow" onClick={() => copyText("⬆")}>⬆</button>

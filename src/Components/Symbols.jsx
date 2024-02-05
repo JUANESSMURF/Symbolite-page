@@ -5,7 +5,7 @@ import { SymCircles } from "../Symbols/SymCircles"
 
 export const Symbols = () => {
     return (
-        <>
+        <div className="symbols-container">
             <SymArrows />
             <SymArrows />
             <SymArrows />
@@ -13,8 +13,7 @@ export const Symbols = () => {
             <SymArrows />
             <SymArrows />
             <SymArrows />
-
             <SymCircles />
-        </>
+        </div>
     )
 }

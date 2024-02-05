@@ -15,12 +15,11 @@
     max-width: 1000px;
     margin: 0 auto;
     padding: 0px 20px;
-    font-family: "Quicksand", sans-serif; 
+    font-family: "Montserrat", sans-serif;
     background-color: white;
     border-right: 1px solid rgb(201, 201, 201);
     border-left: 1px solid rgb(201, 201, 201);
     box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.3);
-
 }
 
 
@@ -30,8 +29,41 @@
     align-items: center;
     min-height: 6vh;
     margin: 0px;
-
 }
+
+
+/* Article content */
+
+.content-article h2:nth-child(1) {
+    font-size: 40px;
+    font-weight: 500;
+    padding: 60px 0px;
+}
+
+.content-article p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.content-article p:nth-child(3) {
+    padding: 40px 0px;
+    
+}
+.symbols-container .buttons-container {
+    border-top: 1px solid #e0e0e0;
+}
+
+.symbols-container .buttons-container div {
+    padding-bottom: 50px;
+}
+
+.symbols-container h2 {
+    
+    font-weight: 500;
+    padding: 40px 0px;
+}
+
+
 /* Estilos title */
 
 .title-container {
@@ -116,7 +148,7 @@
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: "Quicksand", sans-serif;
-    font-weight: 500;
+    font-weight: 350;
     font-size: 14px;
     
 }
