@@ -1,5 +1,6 @@
 
 
+
 export const copyText = (text) => {
     //Crear elemento de text temporal
     var inputTemporal = document.createElement("input");
@@ -15,3 +16,4 @@ export const copyText = (text) => {
 
     alert("Texto copiado al portapapeles: " + text);
 }
+
