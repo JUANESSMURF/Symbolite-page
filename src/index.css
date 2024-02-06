@@ -6,8 +6,12 @@
 .mainPage {
     margin: 0;
     padding: 0;
-    /* background-color: #C9A690; */
-    background-size: 'cover';
+    background: linear-gradient(
+        to bottom,
+        #740730,
+        #ffffff);
+    background-attachment:fixed;
+    
     
 }
 
@@ -16,10 +20,8 @@
     margin: 0 auto;
     padding: 0px 20px;
     font-family: "Montserrat", sans-serif;
-    background-color: white;
-    border-right: 1px solid rgb(201, 201, 201);
-    border-left: 1px solid rgb(201, 201, 201);
-    box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.3);
+    background-color: #eee3db;
+    
 }
 
 
@@ -36,8 +38,8 @@
 
 .content-article h2:nth-child(1) {
     font-size: 40px;
-    font-weight: 500;
-    padding: 60px 0px;
+    font-weight: 700;
+    padding: 40px 0px;
 }
 
 .content-article p {
@@ -46,11 +48,12 @@
 }
 
 .content-article p:nth-child(3) {
+    font-weight: 500;
     padding: 40px 0px;
     
 }
 .symbols-container .buttons-container {
-    border-top: 1px solid #e0e0e0;
+    border-top: 1px solid #000000;
 }
 
 .symbols-container .buttons-container div {
@@ -58,8 +61,8 @@
 }
 
 .symbols-container h2 {
-    
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 700;
     padding: 40px 0px;
 }
 
@@ -67,28 +70,28 @@
 /* Estilos title */
 
 .title-container {
+    font-family: "Montserrat", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2B59C3;
+    background-color: #eee3db;
     
     
 }
 .title-container h1:nth-child(1) {
-    font-style: italic;
     font-size: 40px;
-    color: rgb(255, 255, 255);
-    font-weight:bold;
+    color: #740730;
+    font-weight:800;
 }
 
 .title-container h1:nth-child(2) {
-    
-    background-color: #ff7d49;
+    background-color: #740730;
     border-radius: 15%;
     background-size: 1px;
-    color: white;
-    margin-left: 3px;
-    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-left: 2px;
+    font-size: 35px;
+    font-weight: 800;
     padding: 2px;
 }
 
@@ -98,16 +101,15 @@
 
 .nav-bar {
     display: flex;
-    background-color: #2B59C3;
+    background-color: #eee3db;
     
 }
 
 .nav-bar-container {
     display: flex;
     justify-content:center;
-    border-bottom: 1px solid rgb(201, 201, 201);
-    background-color: #2B59C3;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: #eee3db;
     max-width: 970px;
     margin: 0 auto;
     padding: 0px 35px;
@@ -141,56 +143,61 @@
     padding: 10px;
     
     
+    
 }
 
 
 .nav-bar-menu li a {
-    color: rgb(255, 255, 255);
+    
+    color: #000000;
     text-decoration: none;
     font-family: "Quicksand", sans-serif;
-    font-weight: 350;
+    font-weight: 500;
     font-size: 14px;
     
 }
 
 .nav-bar-menu li:hover {
-    background-color: rgba(255, 255, 255, 0.055);
+    background-color: #fff8f2;
     transition: background-color 0.3s ease;
 }
 
 .nav-bar-menu li:active {
-    animation: clicAnimacion 0.15s ease-in-out;
-    background-color: rgba(255, 255, 255, 0.103);
+    animation: clicAnimacion 0.05s ease-in-out;
+    background-color: rgba(61, 61, 61, 0.322);
 }
 
 /* Estilos buttons */
 
 .button-arrow-container, .button-circle-container {
     display: grid;
-    grid-template-columns: repeat(18, 1fr);
+    grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 4px; /* Espacio entre los botones */
 }
 
 .button-arrow-container button, .button-circle-container button {
     min-width: 5vh;
-    min-height: 5vh;
+    min-height: 4vh;
     font-size: 20px;
+    font-weight: 700;
     font-family: system-ui;
-    border: 1px solid rgb(199, 199, 199);
+    /* border: 1px solid #3f3f3f; */
+    border: none;
     border-radius: 20%;
-    background-color: rgb(245, 245, 245);
+    background-color: #fff8f2;
     
     cursor: pointer;
 }
 
 .button-arrow-container button:hover, .button-circle-container button:hover {
-   background-color: rgb(226, 226, 226);
+    background-color: rgb(173, 173, 173);
+    transition: background-color 0.3s ease;
 }
 
 .button-arrow-container button:active, .button-circle-container button:active {
-    animation: clicAnimacion 0.15s ease-in-out;
-    background-color: rgb(199, 199, 199);
+    animation: clicAnimacion 0.10s ease-in-out;
+    background-color: rgba(61, 61, 61, 0.322);
 }
 
 /*Animación buttons*/
@@ -207,6 +214,7 @@
         transform: scale(1); /* Vuelve a la escala normal al final de la animación */
       }
     }
+
 
 
 
