@@ -1,14 +1,26 @@
 
 :root {
     --text-color: #2E005D;
-    --background-color: #fff9fe;
+    --text-color-v:#d2d0d5;
+    --background-color: #ffffff;
     --primary-color: #56E6DA;
-    --primary-color-light: #ddf8f3;
-    --primary-color-lighter:#f6faf7;
+    --primary-color-lighter: #ddf8f3;
+    --primary-color-lighterX:#f6faf7;
     --secondary-color: #CD1D7E;
     --secondary-color-light: #f0bbd8;
     --secondary-color-lighter: #fae8f2;
     --accent: #FF6B7A;
+
+    /*DarkMode Colors*/
+    --d-text-color: #D1A3FF;
+    --d-background-color: #232323;
+    --d-primary-color: #19A99D;
+    --d-primary-color-light: #223f3c;
+    --d-primary-color-lighter:#232a2a;
+    --d-secondary-color: #E23292;
+    --d-secondary-color-light: #4a273a;
+    --d-secondary-color-lighter: #37252f;
+    --d-accent: #D76571;
 }
 
 
@@ -21,11 +33,12 @@
 .mainPage {
     margin: 0;
     padding: 0;
-    /* background: linear-gradient(
+    /* background-color: var(--primary-color-lighter); */
+    background: linear-gradient(
         to bottom,
-        #740730,
-        #ffffff 50%);
-    background-attachment:fixed; */
+        var(--primary-color),
+        var(--secondary-color-light) 70%);
+    background-attachment:fixed;
        
 }
 
@@ -80,7 +93,7 @@
     justify-content: center;
     align-items: center;
     color: var(--text-color);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     padding: 40px 0px;
 
