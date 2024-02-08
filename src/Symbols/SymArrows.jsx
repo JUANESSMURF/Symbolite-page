@@ -6,7 +6,9 @@ export const SymArrows = () => {
 
     return (
         <div className="buttons-container">
-            <h2>Símbolos De Flecha</h2>
+            <div className="buttons-title-container">
+                <h2>Símbolos De Flecha</h2>
+            </div>   
             <div className="button-arrow-container">
                 <button className="button-arrow" onClick={() => copyText("⬆")}>⬆</button>
                 <button className="button-arrow" onClick={() => copyText("⬅")}>⬅</button>

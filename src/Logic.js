@@ -22,7 +22,7 @@ export function cambiarEstiloOnScroll() {
     var scrollActual = window.scrollY;
 
     // Cambiar clases basado en la posición de scroll
-    if (scrollActual > 150) { // Cambiar estilos cuando el scroll pase cierta posición (por ejemplo, 100 píxeles)
+    if (scrollActual > 0) { // Cambiar estilos cuando el scroll pase cierta posición (por ejemplo, 100 píxeles)
       elementoCambio.classList.add('nav-bar-container-sticky');
       elementoCambio.classList.remove('nav-bar-container');
     } else {

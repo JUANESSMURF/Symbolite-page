@@ -29,7 +29,7 @@ export const Navbar = () => {
                             smooth={true}
                             offset={-70}
                             duration={3000}
-                            >Símbolos De Circulos</Link>
+                            >Símbolos De Círculos</Link>
                         </li>
                         <li>
                         <Link to="/#symbols3">Símbolo De Flecha</Link>
