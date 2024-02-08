@@ -17,3 +17,18 @@ export const copyText = (text) => {
     alert("Texto copiado al portapapeles: " + text);
 }
 
+export function cambiarEstiloOnScroll() {
+    var elementoCambio = document.getElementById('nav-bar-main');
+    var scrollActual = window.scrollY;
+
+    // Cambiar clases basado en la posición de scroll
+    if (scrollActual > 150) { // Cambiar estilos cuando el scroll pase cierta posición (por ejemplo, 100 píxeles)
+      elementoCambio.classList.add('nav-bar-container-sticky');
+      elementoCambio.classList.remove('nav-bar-container');
+    } else {
+      elementoCambio.classList.add('nav-bar-container');
+      elementoCambio.classList.remove('nav-bar-container-sticky');
+    }
+  }
+
+  window.addEventListener('scroll', cambiarEstiloOnScroll);

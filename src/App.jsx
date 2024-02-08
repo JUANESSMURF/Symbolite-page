@@ -13,7 +13,7 @@ function App() {
 
   return (
     <Router>
-      <div className='mainPage'>
+      <div className='pagge mainPage'>
         <Navbar />     
         <Article />
       </div>
