@@ -1,7 +1,7 @@
 
 :root {
     --text-color: #2E005D;
-    --text-color-v:#d2d0d5;
+    --text-color-v:#f4f2f7;
     --background-color: #ffffff;
     --primary-color: #56E6DA;
     --primary-color-lighter: #ddf8f3;
@@ -33,12 +33,12 @@
 .mainPage {
     margin: 0;
     padding: 0;
-    /* background-color: var(--primary-color-lighter); */
-    background: linear-gradient(
+    background-color: var(--primary-color-lighterX);
+    /* background: linear-gradient(
         to bottom,
         var(--primary-color),
         var(--secondary-color-light) 70%);
-    background-attachment:fixed;
+    background-attachment:fixed; */
        
 }
 
@@ -83,27 +83,6 @@
 }
 
 
-.symbols-container .buttons-container div {
-    padding-bottom: 50px;
-}
-
-
-.buttons-title-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--text-color);
-    font-size: 18px;
-    font-weight: 700;
-    padding: 40px 0px;
-
-}
-
-.buttons-container {
-    background-color: var(--secondary-color-lighter);
-    margin: 40px 0px;
-    border-radius: 15px;
-}
 
 
 /* Estilos title */
@@ -226,8 +205,29 @@
 
 
 /* Estilos buttons */
+.symbols-container .buttons-container div {
+    padding-bottom: 50px;
+}
 
-.button-arrow-container, .button-circle-container {
+
+.buttons-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 40px 0px;
+
+}
+
+.buttons-container {
+    background-color: var(--text-color-v);
+    margin: 40px 0px;
+    border-radius: 15px;
+}
+
+.button-symbols-container {
     display: grid;
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -235,7 +235,7 @@
     padding: 0px 20px;
 }
 
-.button-arrow-container button, .button-circle-container button {
+.button-symbols-container button {
     min-width: 5vh;
     min-height: 4vh;
     font-size: 20px;
@@ -249,13 +249,13 @@
     cursor: pointer;
 }
 
-.button-arrow-container button:hover, .button-circle-container button:hover {
+.button-symbols-container button:hover {
     background-color: var(--secondary-color-light);
     transform: translateY(-5px);
     
 }
 
-.button-arrow-container button:active, .button-circle-container button:active {
+.button-symbols-container button:active {
     animation: clicAnimacion 0.15s ease-in-out;
     background-color: var(--secondary-color);
     
@@ -299,9 +299,7 @@
     }
 }
 
-@keyframes clickAnimationHover {
 
-}
 
 
 
