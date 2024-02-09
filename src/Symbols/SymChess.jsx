@@ -11,16 +11,16 @@ export const SymChess = () => {
             </div>
             <div className="button-symbols-container">
                 <button className="button-chess" onClick={() => copyText("♔")}>♔</button>
-                <button className="button-chess" onClick={() => copyText("♕")}>♕</button>
-                <button className="button-chess" onClick={() => copyText("♖")}>♖</button>
-                <button className="button-chess" onClick={() => copyText("♗")}>♗</button>
-                <button className="button-chess" onClick={() => copyText("♘")}>♘</button>
-                <button className="button-chess" onClick={() => copyText("♙")}>♙</button>
                 <button className="button-chess" onClick={() => copyText("♚")}>♚</button>
+                <button className="button-chess" onClick={() => copyText("♕")}>♕</button>
                 <button className="button-chess" onClick={() => copyText("♛")}>♛</button>
+                <button className="button-chess" onClick={() => copyText("♖")}>♖</button>
                 <button className="button-chess" onClick={() => copyText("♜")}>♜</button>
-                <button className="button-chess" onClick={() => copyText("♝")}>♝</button>
+                <button className="button-chess" onClick={() => copyText("♘")}>♘</button>
                 <button className="button-chess" onClick={() => copyText("♞")}>♞</button>
+                <button className="button-chess" onClick={() => copyText("♗")}>♗</button>
+                <button className="button-chess" onClick={() => copyText("♝")}>♝</button>
+                <button className="button-chess" onClick={() => copyText("♙")}>♙</button>
                 <button className="button-chess" onClick={() => copyText("♟")}>♟</button>
 
             </div>

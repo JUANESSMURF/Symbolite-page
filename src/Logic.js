@@ -31,4 +31,6 @@ export function cambiarEstiloOnScroll() {
     }
   }
 
+
+
   window.addEventListener('scroll', cambiarEstiloOnScroll);

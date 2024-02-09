@@ -17,7 +17,7 @@ export const Navbar = () => {
                             to="arrows-container"
                             spy={true}
                             smooth={true}
-                            offset={-70}
+                            offset={-200}
                             duration={2000}
                         >
                             Símbolos De Flechas
@@ -29,7 +29,7 @@ export const Navbar = () => {
                             to="circles-container" 
                             spy={true}
                             smooth={true}
-                            offset={-70}
+                            offset={-200}
                             duration={2000}
                         >
                             Símbolos De Círculos
@@ -38,17 +38,26 @@ export const Navbar = () => {
                         <li>
                         <Link 
                             activeClass="active"
-                            to=""
+                            to="x-container"
                             spy={true}
                             smooth={true}
-                            offset={-70}
+                            offset={-200}
                             duration={2000}
                         >
-                            Símbolos De 
+                            Símbolos De X
                         </Link>
                         </li>
                         <li>
-                        <Link to="/#symbols4">Símbolo De Flecha</Link>
+                        <Link 
+                            activeClass="active"
+                            to="lines-container"
+                            spy={true}
+                            smooth={true}
+                            offset={-200}
+                            duration={2000}
+                        >
+                            Símbolos De Lineas
+                        </Link>
                         </li>              
                     </ul>
                 </nav>
