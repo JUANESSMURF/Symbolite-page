@@ -4,6 +4,7 @@ import { Article } from './Components/Article.jsx';
 import './index.css'
 import { Navbar } from './Components/Navbar.jsx';
 import { Modal } from "./Components/Modal"
+import { Message } from './Components/Message.jsx';
 
 
 
@@ -14,9 +15,10 @@ function App() {
   return (
     <Router>
       <div className='pagge mainPage'>
-        <Navbar />     
+        <Navbar />
+        
         <Article />
-        <Modal />
+        
       </div>
     </Router>
   )

@@ -1,4 +1,4 @@
-
+import React, { useState } from 'react';
 
 
 export const copyText = (text) => {
@@ -14,8 +14,33 @@ export const copyText = (text) => {
     //Elimina el elemento temporal
     document.body.removeChild(inputTemporal);
 
-    alert("Texto copiado al portapapeles: " + text);
+    // alert("Texto copiado al portapapeles: " + text);
 }
+
+
+
+export const SymArrowMessage = () => {
+  const [message, setMessage] = useState(null);
+
+  const handleClick = () => {
+    setMessage('¡Se hizo clic!');
+    setTimeout(() => {
+      setMessage(null);
+    }, 2000);
+  };
+
+  const handleButtonClick = (arrow, text) => {
+    copyText(arrow);
+    handleClick();
+    setMessage("Texto copiado al portapapeles: " + text);
+  };
+
+  return {
+    message,
+    handleButtonClick,
+  };
+};
+
 
 export function cambiarEstiloOnScroll() {
     var elementoCambio = document.getElementById('nav-bar-main');

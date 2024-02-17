@@ -1,8 +1,15 @@
-import { copyText } from "../Logic"
+import { copyText } from "../Logic";
+import { SymArrowMessage } from "../Logic";
+
+
+
 
 
 
 export const SymArrows = () => {
+
+    const { message, handleButtonClick } = SymArrowMessage();
+    
 
     return (
         <div className="buttons-container arrows-container">
@@ -10,7 +17,12 @@ export const SymArrows = () => {
                 <h2>Símbolos De Flecha</h2>
             </div>   
             <div className="button-symbols-container">
-                <button className="button-arrow" onClick={() => copyText("⬆")}>⬆</button>
+                {message && (
+                    <div className="message">
+                        {message}
+                    </div>
+                )}
+                <button className="button-arrow" onClick={() => handleButtonClick("⬆")}>⬆</button>
                 <button className="button-arrow" onClick={() => copyText("⬅")}>⬅</button>
                 <button className="button-arrow" onClick={() => copyText("⮕")}>⮕</button>
                 <button className="button-arrow" onClick={() => copyText("⬇")}>⬇</button>
@@ -214,6 +226,7 @@ export const SymArrows = () => {
                 <button className="button-arrow" onClick={() => copyText("⇼")}>⇼</button>
                 <button className="button-arrow" onClick={() => copyText("𖤂")}>𖤂</button>
                 <button className="button-arrow" onClick={() => copyText("𖣫")}>𖣫</button>
+                
             </div>
         </div>
     )

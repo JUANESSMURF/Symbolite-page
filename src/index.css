@@ -202,7 +202,18 @@
     color: var(--secondary-color);
 }
 
+/* Estilo mensaje button */
 
+.message {
+    position: absolute;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  /* Ajusta el color del texto y otros estilos según sea necesario */
+  transform: translate(-50%, -50%);
+  }
 
 /* Estilos buttons */
 .symbols-container .buttons-container div {
@@ -228,6 +239,7 @@
 }
 
 .button-symbols-container {
+    position: relative;
     display: grid;
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(3, 1fr);
