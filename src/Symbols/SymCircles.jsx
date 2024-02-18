@@ -1,16 +1,23 @@
 import { copyText } from "../Logic"
+import { SymMessage } from "../Logic"
 
 
 
-export const SymCircles = () => {
+export const SymCircles = (showMessage) => {
+    const { message, handleButtonClick } = SymMessage(showMessage);
 
     return (
         <div className="buttons-container circles-container">
             <div className="buttons-title-container">
                 <h2>Símbolos De Círculos</h2>
             </div>
+            {message && (
+                <div className="message">
+                    {message}
+                </div>
+            )}
             <div className="button-symbols-container">
-                <button className="button-circle" onClick={() => copyText("○")}>○</button>
+                <button className="button-circle" onClick={() => handleButtonClick("○", "○")}>○</button>
                 <button className="button-circle" onClick={() => copyText("◌")}>◌</button>
                 <button className="button-circle" onClick={() => copyText("◐")}>◐</button>
                 <button className="button-circle" onClick={() => copyText("◑")}>◑</button>

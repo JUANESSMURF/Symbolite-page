@@ -1,28 +1,28 @@
 import { copyText } from "../Logic";
-import { SymArrowMessage } from "../Logic";
+import { SymMessage } from "../Logic";
 
 
 
 
 
 
-export const SymArrows = () => {
+export const SymArrows = (showMessage) => {
 
-    const { message, handleButtonClick } = SymArrowMessage();
+    const { message, handleButtonClick } = SymMessage(showMessage);
     
 
     return (
         <div className="buttons-container arrows-container">
             <div className="buttons-title-container">
                 <h2>Símbolos De Flecha</h2>
-            </div>   
+            </div>
+            {message && (
+                <div className="message">
+                    {message}
+                </div>
+            )}
             <div className="button-symbols-container">
-                {message && (
-                    <div className="message">
-                        {message}
-                    </div>
-                )}
-                <button className="button-arrow" onClick={() => handleButtonClick("⬆")}>⬆</button>
+                <button className="button-arrow" onClick={() => handleButtonClick("⬆", "⬆")}>⬆</button>
                 <button className="button-arrow" onClick={() => copyText("⬅")}>⬅</button>
                 <button className="button-arrow" onClick={() => copyText("⮕")}>⮕</button>
                 <button className="button-arrow" onClick={() => copyText("⬇")}>⬇</button>

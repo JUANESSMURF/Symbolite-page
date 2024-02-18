@@ -205,14 +205,14 @@
 /* Estilo mensaje button */
 
 .message {
-    position: absolute;
-  background-color: #f0f0f0;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 14px;
-  /* Ajusta el color del texto y otros estilos según sea necesario */
-  transform: translate(-50%, -50%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;/* Ajusta el valor de zIndex para asegurarte de que esté por encima de otros elementos */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
   }
 
 /* Estilos buttons */

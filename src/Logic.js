@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 
 
 export const copyText = (text) => {
@@ -19,7 +19,7 @@ export const copyText = (text) => {
 
 
 
-export const SymArrowMessage = () => {
+export const SymMessage = (showMessage) => {
   const [message, setMessage] = useState(null);
 
   const handleClick = () => {
@@ -29,8 +29,8 @@ export const SymArrowMessage = () => {
     }, 2000);
   };
 
-  const handleButtonClick = (arrow, text) => {
-    copyText(arrow);
+  const handleButtonClick = (symbol, text) => {
+    copyText(symbol);
     handleClick();
     setMessage("Texto copiado al portapapeles: " + text);
   };

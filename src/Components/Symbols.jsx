@@ -7,10 +7,10 @@ import { SymX } from "../Symbols/SymX"
 
 
 
-export const Symbols = () => {
+export const Symbols = ( showMessage ) => {
     return (
         <div className="symbols-container">
-            <SymArrows />
+            <SymArrows showMessage={showMessage}/>
             <SymCircles />
             <SymChess />
             <SymMusic />
