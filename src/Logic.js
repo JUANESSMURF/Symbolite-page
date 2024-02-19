@@ -19,7 +19,7 @@ export const copyText = (text) => {
 
 
 
-export const SymMessage = (showMessage) => {
+export const SymMessage = () => {
   const [message, setMessage] = useState(null);
 
   const handleClick = () => {

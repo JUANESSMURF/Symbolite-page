@@ -208,12 +208,18 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -300%);
+    z-index: 1;
     background: white;
     padding: 20px;/* Ajusta el valor de zIndex para asegurarte de que esté por encima de otros elementos */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
+    /* opacity: 0;
+    transition: opacity 0.5s ease-in-out; */
   }
+
+/* .message.show {
+    opacity: 1;
+  } */
 
 /* Estilos buttons */
 .symbols-container .buttons-container div {

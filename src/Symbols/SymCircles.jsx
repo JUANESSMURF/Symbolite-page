@@ -1,4 +1,4 @@
-import { copyText } from "../Logic"
+
 import { SymMessage } from "../Logic"
 
 
@@ -18,58 +18,58 @@ export const SymCircles = (showMessage) => {
             )}
             <div className="button-symbols-container">
                 <button className="button-circle" onClick={() => handleButtonClick("○", "○")}>○</button>
-                <button className="button-circle" onClick={() => copyText("◌")}>◌</button>
-                <button className="button-circle" onClick={() => copyText("◐")}>◐</button>
-                <button className="button-circle" onClick={() => copyText("◑")}>◑</button>
-                <button className="button-circle" onClick={() => copyText("◒")}>◒</button>
-                <button className="button-circle" onClick={() => copyText("◓")}>◓</button>
-                <button className="button-circle" onClick={() => copyText("◔")}>◔</button>
-                <button className="button-circle" onClick={() => copyText("◕")}>◕</button>
-                <button className="button-circle" onClick={() => copyText("◯")}>◯</button>
-                <button className="button-circle" onClick={() => copyText("⊖")}>⊖</button>
-                <button className="button-circle" onClick={() => copyText("⊘")}>⊘</button>
-                <button className="button-circle" onClick={() => copyText("⊙")}>⊙</button>
-                <button className="button-circle" onClick={() => copyText("⊚")}>⊚</button>
-                <button className="button-circle" onClick={() => copyText("⊛")}>⊛</button>
-                <button className="button-circle" onClick={() => copyText("⊜")}>⊜</button>
-                <button className="button-circle" onClick={() => copyText("⊝")}>⊝</button>
-                <button className="button-circle" onClick={() => copyText("◉")}>◉</button>
-                <button className="button-circle" onClick={() => copyText("◍")}>◍</button>
-                <button className="button-circle" onClick={() => copyText("◎")}>◎</button>
-                <button className="button-circle" onClick={() => copyText("●")}>●</button>
-                <button className="button-circle" onClick={() => copyText("◖")}>◖</button>
-                <button className="button-circle" onClick={() => copyText("◗")}>◗</button>
-                <button className="button-circle" onClick={() => copyText("◦")}>◦</button>
-                <button className="button-circle" onClick={() => copyText("◴")}>◴</button>
-                <button className="button-circle" onClick={() => copyText("◵")}>◵</button>
-                <button className="button-circle" onClick={() => copyText("◶")}>◶</button>
-                <button className="button-circle" onClick={() => copyText("◷")}>◷</button>
-                <button className="button-circle" onClick={() => copyText("❍")}>❍</button>
-                <button className="button-circle" onClick={() => copyText("ₒ")}>ₒ</button>
-                <button className="button-circle" onClick={() => copyText("॰")}>॰</button>
-                <button className="button-circle" onClick={() => copyText("°")}>°</button>
-                <button className="button-circle" onClick={() => copyText("৹")}>৹</button>
-                <button className="button-circle" onClick={() => copyText("๐")}>๐</button>
-                <button className="button-circle" onClick={() => copyText("º")}>º</button>
-                <button className="button-circle" onClick={() => copyText("𐤏")}>𐤏</button>
-                <button className="button-circle" onClick={() => copyText("Ｏ")}>Ｏ</button>
-                <button className="button-circle" onClick={() => copyText("⦿")}>⦿</button>
-                <button className="button-circle" onClick={() => copyText("⊕")}>⊕</button>
-                <button className="button-circle" onClick={() => copyText("⊗")}>⊗</button>
-                <button className="button-circle" onClick={() => copyText("⨷")}>⨷</button>
-                <button className="button-circle" onClick={() => copyText("𖥕")}>𖥕</button>
-                <button className="button-circle" onClick={() => copyText("𖥞")}>𖥞</button>
-                <button className="button-circle" onClick={() => copyText("𖦹")}>𖦹</button>
-                <button className="button-circle" onClick={() => copyText("𖥚")}>𖥚</button>
-                <button className="button-circle" onClick={() => copyText("𖤞")}>𖤞</button>
-                <button className="button-circle" onClick={() => copyText("𒊹")}>𒊹</button>
-                <button className="button-circle" onClick={() => copyText("⭕")}>⭕</button>
-                <button className="button-circle" onClick={() => copyText("🅞")}>🅞</button>
-                <button className="button-circle" onClick={() => copyText("Ⓞ")}>Ⓞ</button>
-                <button className="button-circle" onClick={() => copyText("ⓞ")}>ⓞ</button>
-                <button className="button-circle" onClick={() => copyText("𖣠")}>𖣠</button>
-                <button className="button-circle" onClick={() => copyText("𖣐")}>𖣐</button>
-                <button className="button-circle" onClick={() => copyText("᪤")}>᪤</button>
+                <button className="button-circle" onClick={() => handleButtonClick("◌", "◌")}>◌</button>
+                <button className="button-circle" onClick={() => handleButtonClick("◐", "◐")}>◐</button>
+                <button className="button-circle" onClick={() => handleButtonClick("◑", "◑")}>◑</button>
+                <button className="button-circle" onClick={() => handleButtonClick("◒", "◒")}>◒</button>
+                <button className="button-circle" onClick={() => handleButtonClick("◓", "◓")}>◓</button>
+                <button className="button-circle" onClick={() => handleButtonClick("◔", "◔")}>◔</button>
+                <button className="button-circle" onClick={() => handleButtonClick("◕", "◕")}>◕</button>
+                <button className="button-circle" onClick={() => handleButtonClick("◯", "◯")}>◯</button>
+                <button className="button-circle" onClick={() => handleButtonClick("⊖", "⊖")}>⊖</button>
+                <button className="button-circle" onClick={() => handleButtonClick("⊘", "⊘")}>⊘</button>
+                <button className="button-circle" onClick={() => handleButtonClick("⊙", "⊙")}>⊙</button>
+                <button className="button-circle" onClick={() => handleButtonClick("⊚", "⊚")}>⊚</button>
+                <button className="button-circle" onClick={() => handleButtonClick("⊛", "⊛")}>⊛</button>
+                <button className="button-circle" onClick={() => handleButtonClick("⊜", "⊜")}>⊜</button>
+                <button className="button-circle" onClick={() => handleButtonClick("⊝", "⊝")}>⊝</button>
+                <button className="button-circle" onClick={() => handleButtonClick("◉", "◉")}>◉</button>
+                <button className="button-circle" onClick={() => handleButtonClick("◍", "◍")}>◍</button>
+                <button className="button-circle" onClick={() => handleButtonClick("◎", "◎")}>◎</button>
+                <button className="button-circle" onClick={() => handleButtonClick("●", "●")}>●</button>
+                <button className="button-circle" onClick={() => handleButtonClick("◖", "◖")}>◖</button>
+                <button className="button-circle" onClick={() => handleButtonClick("◗", "◗")}>◗</button>
+                <button className="button-circle" onClick={() => handleButtonClick("◦", "◦")}>◦</button>
+                <button className="button-circle" onClick={() => handleButtonClick("◴", "◴")}>◴</button>
+                <button className="button-circle" onClick={() => handleButtonClick("◵", "◵")}>◵</button>
+                <button className="button-circle" onClick={() => handleButtonClick("◶", "◶")}>◶</button>
+                <button className="button-circle" onClick={() => handleButtonClick("◷", "◷")}>◷</button>
+                <button className="button-circle" onClick={() => handleButtonClick("❍", "❍")}>❍</button>
+                <button className="button-circle" onClick={() => handleButtonClick("ₒ", "ₒ")}>ₒ</button>
+                <button className="button-circle" onClick={() => handleButtonClick("॰", "॰")}>॰</button>
+                <button className="button-circle" onClick={() => handleButtonClick("°", "°")}>°</button>
+                <button className="button-circle" onClick={() => handleButtonClick("৹", "৹")}>৹</button>
+                <button className="button-circle" onClick={() => handleButtonClick("๐", "๐")}>๐</button>
+                <button className="button-circle" onClick={() => handleButtonClick("º", "º")}>º</button>
+                <button className="button-circle" onClick={() => handleButtonClick("𐤏", "𐤏")}>𐤏</button>
+                <button className="button-circle" onClick={() => handleButtonClick("Ｏ", "Ｏ")}>Ｏ</button>
+                <button className="button-circle" onClick={() => handleButtonClick("⦿", "⦿")}>⦿</button>
+                <button className="button-circle" onClick={() => handleButtonClick("⊕", "⊕")}>⊕</button>
+                <button className="button-circle" onClick={() => handleButtonClick("⊗", "⊗")}>⊗</button>
+                <button className="button-circle" onClick={() => handleButtonClick("⨷", "⨷")}>⨷</button>
+                <button className="button-circle" onClick={() => handleButtonClick("𖥕", "𖥕")}>𖥕</button>
+                <button className="button-circle" onClick={() => handleButtonClick("𖥞", "𖥞")}>𖥞</button>
+                <button className="button-circle" onClick={() => handleButtonClick("𖦹", "𖦹")}>𖦹</button>
+                <button className="button-circle" onClick={() => handleButtonClick("𖥚", "𖥚")}>𖥚</button>
+                <button className="button-circle" onClick={() => handleButtonClick("𖤞", "𖤞")}>𖤞</button>
+                <button className="button-circle" onClick={() => handleButtonClick("𒊹", "𒊹")}>𒊹</button>
+                <button className="button-circle" onClick={() => handleButtonClick("⭕", "⭕")}>⭕</button>
+                <button className="button-circle" onClick={() => handleButtonClick("🅞", "🅞")}>🅞</button>
+                <button className="button-circle" onClick={() => handleButtonClick("Ⓞ", "Ⓞ")}>Ⓞ</button>
+                <button className="button-circle" onClick={() => handleButtonClick("ⓞ", "Ⓞ")}>ⓞ</button>
+                <button className="button-circle" onClick={() => handleButtonClick("𖣠", "𖣠")}>𖣠</button>
+                <button className="button-circle" onClick={() => handleButtonClick("𖣐", "𖣐")}>𖣐</button>
+                <button className="button-circle" onClick={() => handleButtonClick("᪤", "᪤")}>᪤</button>
             </div>
         </div>
     )
