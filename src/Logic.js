@@ -26,7 +26,7 @@ export const SymMessage = () => {
     setMessage('¡Se hizo clic!');
     setTimeout(() => {
       setMessage(null);
-    }, 2000);
+    }, 20000);
   };
 
   const handleButtonClick = (symbol, text) => {

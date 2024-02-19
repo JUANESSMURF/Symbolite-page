@@ -4,8 +4,8 @@
     --text-color-v:#f4f2f7;
     --background-color: #ffffff;
     --primary-color: #56E6DA;
-    --primary-color-lighter: #ddf8f3;
-    --primary-color-lighterX:#f6faf7;
+    --primary-color-light: #ddf8f3;
+    --primary-color-lighter:#f6faf7;
     --secondary-color: #CD1D7E;
     --secondary-color-light: #f0bbd8;
     --secondary-color-lighter: #fae8f2;
@@ -126,7 +126,7 @@
 .nav-bar-container {
     display: flex;
     justify-content:center;
-    border-bottom: 2px solid var(--accent);
+    border-bottom: 1px solid rgb(207, 207, 207);
     background-color: var(--background-color);
     width: 100%;
     max-width: 1000px;
@@ -142,7 +142,7 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    border-bottom: 2px solid var(--accent);
+    border-bottom: 1px solid rgb(207, 207, 207);
     background-color: var(--background-color);
     width: 100%;
     max-width: 1000px;
@@ -188,12 +188,12 @@
 
 
 .nav-bar-menu li a {
+    text-decoration: underline;
     cursor: pointer;
     color: var(--text-color);
-    text-decoration: none;
     font-family: "Quicksand", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 12px;
     transition: 0.5s;
     
 }
@@ -205,16 +205,20 @@
 /* Estilo mensaje button */
 
 .message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: fixed;
+    min-width: 300px;
+    min-height: 20px;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -300%);
+    left: 40%;
+    margin-top: -200px;
     z-index: 1;
     background: white;
-    padding: 20px;/* Ajusta el valor de zIndex para asegurarte de que esté por encima de otros elementos */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* opacity: 0;
-    transition: opacity 0.5s ease-in-out; */
+    padding: 20px;
+    font-size:medium;
   }
 
 /* .message.show {
@@ -222,9 +226,6 @@
   } */
 
 /* Estilos buttons */
-.symbols-container .buttons-container div {
-    padding-bottom: 50px;
-}
 
 
 .buttons-title-container {
@@ -239,7 +240,7 @@
 }
 
 .buttons-container {
-    background-color: var(--text-color-v);
+    background-color: var(--primary-color-light);
     margin: 40px 0px;
     border-radius: 15px;
 }
@@ -250,7 +251,7 @@
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 4px; /* Espacio entre los botones */
-    padding: 0px 20px;
+    padding: 0px 20px 50px 20px;
 }
 
 .button-symbols-container button {
@@ -262,13 +263,14 @@
     /* border: 1px solid #3f3f3f; */
     border: none;
     border-radius: 20%;
-    background-color: var(--secondary-color-light);
+    background-color: var(--primary-color);
     transition: transform 0.3s ease;
     cursor: pointer;
+    transition: box-shadow 0.5s ease;
 }
 
 .button-symbols-container button:hover {
-    background-color: var(--secondary-color-light);
+    box-shadow: 0px 0px 20px var(--primary-color);
     transform: translateY(-5px);
     
 }

@@ -225,8 +225,7 @@ export const SymArrows = (showMessage) => {
                 <button className="button-arrow" onClick={() => handleButtonClick("⇻", "⇻")}>⇻</button>
                 <button className="button-arrow" onClick={() => handleButtonClick("⇼", "⇼")}>⇼</button>
                 <button className="button-arrow" onClick={() => handleButtonClick("𖤂", "𖤂")}>𖤂</button>
-                <button className="button-arrow" onClick={() => handleButtonClick("𖣫", "𖣫")}>𖣫</button>
-                
+                <button className="button-arrow" onClick={() => handleButtonClick("𖣫", "𖣫")}>𖣫</button>             
             </div>
         </div>
     )
