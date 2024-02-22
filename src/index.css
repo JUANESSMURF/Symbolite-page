@@ -264,9 +264,9 @@
     border: none;
     border-radius: 20%;
     background-color: var(--primary-color);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
     cursor: pointer;
-    transition: box-shadow 0.5s ease;
+
 }
 
 .button-symbols-container button:hover {
@@ -277,7 +277,7 @@
 
 .button-symbols-container button:active {
     animation: clicAnimacion 0.15s ease-in-out;
-    background-color: var(--secondary-color);
+    
     
 }
 
