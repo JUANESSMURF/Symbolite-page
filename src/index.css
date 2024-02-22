@@ -92,7 +92,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--background-color);
+    background-color: var(--text-color-v);
     
     
     
@@ -120,20 +120,21 @@
 
 .nav-bar {
     display: flex;
-    background-color: var(--background-color);
+    background-color: var(--text-color-v);
 }
 
 .nav-bar-container {
     display: flex;
     justify-content:center;
     border-bottom: 1px solid rgb(207, 207, 207);
-    background-color: var(--background-color);
+    background-color: var(--text-color-v);
     width: 100%;
     max-width: 1000px;
     min-width: 1000px;
     margin: 0 auto;
     padding: 0px 20px;
     animation: fadeInUp 0.7s ease;
+    
 }
 
 /*Navbar*/
@@ -143,7 +144,7 @@
     justify-content:center;
     align-items: center;
     border-bottom: 1px solid rgb(207, 207, 207);
-    background-color: var(--background-color);
+    background-color: var(--text-color-v);
     width: 100%;
     max-width: 1000px;
     min-width: 1000px;
