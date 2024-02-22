@@ -126,7 +126,6 @@
 .nav-bar-container {
     display: flex;
     justify-content:center;
-    border-bottom: 1px solid rgb(207, 207, 207);
     background-color: var(--text-color-v);
     width: 100%;
     max-width: 1000px;
@@ -134,7 +133,7 @@
     margin: 0 auto;
     padding: 0px 20px;
     animation: fadeInUp 0.7s ease;
-    
+    border-radius: 15px;
 }
 
 /*Navbar*/
@@ -143,7 +142,6 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    border-bottom: 1px solid rgb(207, 207, 207);
     background-color: var(--text-color-v);
     width: 100%;
     max-width: 1000px;
@@ -156,6 +154,7 @@
     z-index: 1000;
     padding: 0px 20px;
     animation: fadeInDown 0.7s ease;
+    border-radius: 15px;
 }
 
 
@@ -216,7 +215,8 @@
     left: 40%;
     margin-top: -200px;
     z-index: 1;
-    background: white;
+    background: var(--secondary-color-light);
+    border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     font-size:medium;
