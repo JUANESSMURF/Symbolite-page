@@ -3,6 +3,7 @@
     --text-color: #2E005D;
     --text-color-v:#f4f2f7;
     --background-color: #ffffff;
+    --background-grey-color: #f7f7f7;
     --primary-color: #56E6DA;
     --primary-color-light: #ddf8f3;
     --primary-color-lighter:#f6faf7;
@@ -33,7 +34,6 @@
 .mainPage {
     margin: 0;
     padding: 0;
-    background-color: var(--primary-color-lighterX);
     /* background: linear-gradient(
         to bottom,
         var(--primary-color),
@@ -211,7 +211,7 @@
     position: fixed;
     min-width: 300px;
     min-height: 20px;
-    top: 50%;
+    top: 48%;
     left: 40%;
     margin-top: -200px;
     z-index: 1;
@@ -220,6 +220,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     font-size:medium;
+    font-weight: 500;
+    animation: fadeInDown 0.7s ease;
   }
 
 /* .message.show {
@@ -272,8 +274,7 @@
 
 .button-symbols-container button:hover {
     box-shadow: 0px 0px 20px var(--primary-color);
-    transform: translateY(-5px);
-    
+    transform: translateY(-5px);   
 }
 
 .button-symbols-container button:active {
