@@ -26,13 +26,13 @@ export const SymMessage = () => {
     setMessage('¡Se hizo clic!');
     setTimeout(() => {
       setMessage(null);
-    }, 20000);
+    }, 3000);
   };
 
   const handleButtonClick = (symbol, text) => {
     copyText(symbol);
     handleClick();
-    setMessage("Texto copiado al portapapeles: " + text);
+    setMessage("Has copiado el siguiente símbolo: " + text);
   };
 
   return {
