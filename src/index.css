@@ -27,19 +27,15 @@
 
 * {
     margin: 0;
+    padding: 0;
+
     
 }
 
 
 .mainPage {
-    margin: 0;
-    padding: 0;
-    /* background: linear-gradient(
-        to bottom,
-        var(--primary-color),
-        var(--secondary-color-light) 70%);
-    background-attachment:fixed; */
-       
+    background: radial-gradient(125% 125% at 50% 10%, #fff 40%, var(--accent) 100%);
+    background-attachment: fixed;   
 }
 
 
@@ -51,6 +47,10 @@
     font-family: "Montserrat", sans-serif;
     background-color: var(--background-color);
     color: var(--text-color);
+    border: 1px solid var(--text-color-v);
+    
+
+    border-radius: 15px;
 }
 
 
@@ -60,6 +60,7 @@
     align-items: center;
     min-height: 6vh;
     margin: 0px;
+    
 }
 
 
@@ -92,7 +93,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--text-color-v);
+    background-color: white;
     
     
     
@@ -120,13 +121,13 @@
 
 .nav-bar {
     display: flex;
-    background-color: var(--text-color-v);
+    background-color: white;
 }
 
 .nav-bar-container {
     display: flex;
     justify-content:center;
-    background-color: var(--text-color-v);
+    background-color: white;
     width: 100%;
     max-width: 1000px;
     min-width: 1000px;
@@ -134,6 +135,10 @@
     padding: 0px 20px;
     animation: fadeInUp 0.7s ease;
     border-radius: 15px;
+    border-bottom: 1px solid var(--text-color-v);
+    border-left: 1px solid var(--text-color-v);
+    border-right: 1px solid var(--text-color-v);
+    margin-bottom: 10px;
 }
 
 /*Navbar*/
@@ -142,7 +147,7 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    background-color: var(--text-color-v);
+    background-color: white;
     width: 100%;
     max-width: 1000px;
     min-width: 1000px;
@@ -155,6 +160,7 @@
     padding: 0px 20px;
     animation: fadeInDown 0.7s ease;
     border-radius: 15px;
+    border-bottom: 1px solid var(--text-color-v);
 }
 
 
