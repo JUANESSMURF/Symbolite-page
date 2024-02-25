@@ -4,6 +4,7 @@ import { BrowserRouter as Router} from 'react-router-dom';
 import { Article } from './Components/Article.jsx';
 import './index.css'
 import { Navbar } from './Components/Navbar.jsx';
+import { Footer } from './Components/Footer.jsx';
 
 
 
@@ -15,7 +16,8 @@ function App() {
     <Router>
       <div className='pagge mainPage'>
         <Navbar />
-        <Article /> 
+        <Article />
+        <Footer/>
       </div>
     </Router>
   )

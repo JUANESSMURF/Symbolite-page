@@ -48,8 +48,6 @@
     background-color: var(--background-color);
     color: var(--text-color);
     border: 1px solid var(--text-color-v);
-    
-
     border-radius: 15px;
 }
 
@@ -122,6 +120,7 @@
 .nav-bar {
     display: flex;
     background-color: white;
+    
 }
 
 .nav-bar-container {
@@ -139,6 +138,7 @@
     border-left: 1px solid var(--text-color-v);
     border-right: 1px solid var(--text-color-v);
     margin-bottom: 10px;
+    
 }
 
 /*Navbar*/
@@ -178,32 +178,37 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto; 
+    
 }
 
 .nav-bar-menu {
-    padding: 0px
+    padding: 0px;
+    
 }
 
 .nav-bar-menu li {
     display: flex;
     justify-content: start;
     padding: 8px;
+    
+    
+    
 }
 
 
 .nav-bar-menu li a {
-    text-decoration: underline;
     cursor: pointer;
     color: var(--text-color);
     font-family: "Quicksand", sans-serif;
     font-weight: 500;
     font-size: 12px;
-    transition: 0.5s;
+    
     
 }
 
 .nav-bar-menu li a:hover {
     color: var(--secondary-color);
+    
 }
 
 /* Estilo mensaje button */
@@ -286,6 +291,25 @@
     
     
 }
+
+/* Footer styles */
+
+.footer-main {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 40px 0px;
+    margin-top: 10px;
+}
+
+.rights-container {
+    border-right: 1px solid rgb(207, 207, 207);
+    padding-right: 420px;
+}
+
 
 /*Animación buttons*/
 
