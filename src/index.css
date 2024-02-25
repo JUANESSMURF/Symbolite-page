@@ -177,11 +177,9 @@
 .nav-bar-menu-container {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
-    
-    
-    
+    margin: 0 auto; 
 }
+
 .nav-bar-menu {
     padding: 0px
 }
@@ -249,7 +247,7 @@
 }
 
 .buttons-container {
-    background-color: var(--primary-color-light);
+    background-color: var(--text-color-v);
     margin: 40px 0px;
     border-radius: 15px;
 }
@@ -264,8 +262,8 @@
 }
 
 .button-symbols-container button {
-    min-width: 5vh;
-    min-height: 4vh;
+    max-width: 5vh;
+    max-height: 4vh;
     font-size: 20px;
     font-weight: 700;
     font-family: system-ui;
