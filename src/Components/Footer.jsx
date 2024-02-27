@@ -6,11 +6,10 @@ export const Footer = () => {
                     <h1>Footer</h1>
                     <p>&copy; 2024 Hecho por <a href="https://github.com/JUANESSMURF" target="_blank" rel="noopener noreferrer">
                         Juan Ortiz
-                    </a></p>
-                    
+                    </a></p>  
                 </div>
-                <div>
-                    <ul>
+                <div className="contactme-container">
+                    <ul className="contactme-ul">
                         <li>
                             <a href="https://github.com/JUANESSMURF" target="_blank" rel="noopener noreferrer">
                                 GitHub

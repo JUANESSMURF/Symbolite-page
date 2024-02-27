@@ -296,18 +296,45 @@
 
 .footer-main {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     max-width: 100%;
     font-family: "Montserrat", sans-serif;
-    background-color: var(--background-color);
+    background-color: var(--text-color-v);
     color: var(--text-color);
-    padding: 40px 0px;
+    padding: 20px 0px;
     margin-top: 10px;
 }
 
 .rights-container {
-    border-right: 1px solid rgb(207, 207, 207);
-    padding-right: 420px;
+    border-right: 1px solid #e0d9e7;
+    padding: 30px 200px 30px 0px;
+}
+.rights-container a:hover {
+    color: var(--secondary-color);
+}
+
+.contactme-container{ 
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    display: flex;
+
+}
+
+.contactme-ul li {
+    list-style: none;
+    padding: 4px 0px;
+}
+
+.contactme-ul li a {
+    text-decoration:none;
+    
+}
+
+.contactme-ul li a:hover {
+    color: var(--secondary-color);
+    
 }
 
 
