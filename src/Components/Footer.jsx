@@ -3,10 +3,11 @@ export const Footer = () => {
     return (
         <div className="footer-main">
                 <div className="rights-container">
-                    <h1>Footer</h1>
+                    <h1>SymboLite</h1>
                     <p>&copy; 2024 Hecho por <a href="https://github.com/JUANESSMURF" target="_blank" rel="noopener noreferrer">
                         Juan Ortiz
-                    </a></p>  
+                    </a></p>
+                    <p>Todos los derechos son reservados</p>
                 </div>
                 <div className="contactme-container">
                     <ul className="contactme-ul">
