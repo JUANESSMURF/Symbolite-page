@@ -307,8 +307,8 @@
 }
 
 .rights-container {
-    border-right: 1px solid #e0d9e7;
-    padding: 30px 200px 30px 0px;
+    
+    padding: 30px 100px 30px 0px;
 }
 .rights-container a:hover {
     color: var(--secondary-color);

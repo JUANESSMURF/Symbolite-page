@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+
 
 
 export const Footer = () => {
@@ -9,7 +9,9 @@ export const Footer = () => {
                     <p>&copy; 2024 Hecho por <a href="https://github.com/JUANESSMURF" target="_blank" rel="noopener noreferrer">
                         Juan Ortiz
                     </a></p>
-                    <p>Todos los derechos son reservados</p>
+                    <p className="terms-p">Todos los derechos son reservados. Licencia <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">
+                    CC BY
+                    </a></p>
                 </div>
                 <div className="contactme-container">
                     <ul className="contactme-ul">
@@ -28,7 +30,7 @@ export const Footer = () => {
                             </a>
                         </li>
                         <li>
-                            <a>Términos y condiciones</a>
+                            <a href="" target="_blank" rel="noopener noreferrer"></a>
                         </li>
                     </ul>
                 </div>

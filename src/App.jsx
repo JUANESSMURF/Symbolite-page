@@ -5,7 +5,7 @@ import { Article } from './Components/Article.jsx';
 import './index.css'
 import { Navbar } from './Components/Navbar.jsx';
 import { Footer } from './Components/Footer.jsx';
-import { Terms } from './Components/Terms.jsx';
+
 
 
 
@@ -18,7 +18,6 @@ function App() {
       <div className='pagge mainPage'>
         <Navbar />
         <Article />
-        <Terms/>
         <Footer/>
       </div>
     </Router>
