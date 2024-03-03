@@ -1,10 +1,10 @@
-
+import { Link } from 'react-router-dom';
 
 export const Terms = () => {
     return (
         <div className="terms-container">
             <h1>Terminos y condiciones</h1>
-            <p>Términos y Condiciones de Uso
+            {/* <p>Términos y Condiciones de Uso
 
 Bienvenido a [Nombre de Tu Página Web].
 
@@ -44,7 +44,9 @@ Al acceder y utilizar [Nombre de Tu Página Web], aceptas cumplir con estos Tér
 
 Si tienes preguntas o inquietudes sobre estos Términos y Condiciones, puedes ponerte en contacto con nosotros [proporcionar información de contacto].
 
-Al utilizar [Nombre de Tu Página Web], aceptas estos Términos y Condiciones de Uso.</p>        
+Al utilizar [Nombre de Tu Página Web], aceptas estos Términos y Condiciones de Uso.</p>         */}
+        
+
         </div>
     )
 }

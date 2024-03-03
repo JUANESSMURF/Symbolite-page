@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 
 export const Footer = () => {
     return (
@@ -24,6 +26,9 @@ export const Footer = () => {
                         <li><a href="" target="_blank" rel="noopener noreferrer">
                             micorreo@gmail.com
                             </a>
+                        </li>
+                        <li>
+                            <a>Términos y condiciones</a>
                         </li>
                     </ul>
                 </div>
