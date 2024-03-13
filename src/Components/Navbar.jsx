@@ -64,10 +64,28 @@ export const Navbar = () => {
                 <nav className='nav-bar'>
                     <ul className='nav-bar-menu'>
                         <li>
-                        <Link to="/#symbols1">Símbolo De Flecha</Link>
+                        <Link 
+                            activeClass="active"
+                            to="zodiac-container"
+                            spy={true}
+                            smooth={true}
+                            offset={-200}
+                            duration={2000}
+                        >
+                            Símbolos Del Zodiaco
+                        </Link>
                         </li>
                         <li>
-                        <Link to="/#symbols2">Símbolo De Flecha</Link>
+                        <Link 
+                            activeClass="active"
+                            to="poker-container"
+                            spy={true}
+                            smooth={true}
+                            offset={-200}
+                            duration={2000}
+                        >
+                            Símbolos De Poker
+                        </Link>
                         </li>
                         <li>
                         <Link to="/#symbols3">Símbolo De Flecha</Link>

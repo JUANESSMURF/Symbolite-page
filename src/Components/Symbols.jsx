@@ -5,6 +5,7 @@ import { SymCircles } from "../Symbols/SymCircles"
 import { SymLines } from "../Symbols/SymLines"
 import { SymX } from "../Symbols/SymX"
 import { SymZodiac } from "../Symbols/SymZodiac"
+import { SymPoker } from "../Symbols/SymPoker"
 
 
 
@@ -16,6 +17,7 @@ export const Symbols = ( showMessage ) => {
             <SymChess />
             <SymZodiac />
             <SymMusic />
+            <SymPoker/>
             <SymLines />
             <SymX />
         </div>
