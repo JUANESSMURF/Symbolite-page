@@ -88,7 +88,16 @@ export const Navbar = () => {
                         </Link>
                         </li>
                         <li>
-                        <Link to="/#symbols3">Símbolo De Flecha</Link>
+                        <Link 
+                            activeClass="active"
+                            to="dices-container"
+                            spy={true}
+                            smooth={true}
+                            offset={-200}
+                            duration={2000}
+                        >
+                            Símbolos De Dados
+                        </Link>
                         </li>
                         <li>
                         <Link to="/#symbols4">Símbolo De Flecha</Link>
@@ -98,7 +107,16 @@ export const Navbar = () => {
                 <nav className='nav-bar'>
                     <ul className='nav-bar-menu'>
                         <li>
-                        <Link to="/#symbols1">Símbolo De Flecha</Link>
+                        <Link 
+                            activeClass="active"
+                            to="music-container"
+                            spy={true}
+                            smooth={true}
+                            offset={-200}
+                            duration={2000}
+                        >
+                            Símbolos Musicales
+                        </Link>
                         </li>
                         <li>
                         <Link to="/#symbols2">Símbolo De Flecha</Link>
