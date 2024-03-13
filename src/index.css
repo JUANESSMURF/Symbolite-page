@@ -156,7 +156,7 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000;
+    z-index: 2;
     padding: 0px 20px;
     animation: fadeInDown 0.7s ease;
     border-radius: 15px;
@@ -238,6 +238,20 @@
   } */
 
 /* Estilos buttons */
+
+.setDark-button {
+    position: fixed;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff; /* Cambia el color de fondo según tu preferencia */
+    color: #000000; /* Color de texto */
+    border: 1px solid black; /* Borde en todos los lados */
+    border-top: none; /* Elimina el borde superior */
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+    z-index: 3; /* Asegura que el botón esté en la parte superior */
+    font-size: large;
+}
 
 
 .buttons-title-container {
