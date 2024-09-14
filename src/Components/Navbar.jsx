@@ -119,7 +119,16 @@ export const Navbar = () => {
                         </Link>
                         </li>
                         <li>
-                        <Link to="/#symbols2">Símbolo De Flecha</Link>
+                        <Link 
+                            activeClass="active"
+                            to="number-container"
+                            spy={true}
+                            smooth={true}
+                            offset={-200}
+                            duration={2000}
+                        >
+                            Símbolos Numéricos
+                        </Link>
                         </li>
                         <li>
                         <Link to="/#symbols3">Símbolo De Flecha</Link>
