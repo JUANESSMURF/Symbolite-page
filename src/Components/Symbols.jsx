@@ -9,6 +9,7 @@ import { SymPoker } from "../Symbols/SymPoker"
 import { SymDices } from "../Symbols/SymDices"
 import { SymNumber } from "../Symbols/SymNumber"
 import { SymTime } from "../Symbols/SymTime"
+import { SymObject } from "../Symbols/SymObject"
 
 
 
@@ -26,7 +27,7 @@ export const Symbols = ( showMessage ) => {
             <SymDices/>
             <SymNumber />
             <SymTime />
-
+            <SymObject />
 
             
         </div>
