@@ -179,11 +179,20 @@ export const Navbar = () => {
                             offset={-200}
                             duration={2000}
                         >
-                            Símbolos Género
+                            Símbolos De Género
                         </Link>
                         </li>
                         <li>
-                        <Link to="/#symbols3">Símbolo De Flecha</Link>
+                        <Link 
+                            activeClass="active"
+                            to="gen-container"
+                            spy={true}
+                            smooth={true}
+                            offset={-200}
+                            duration={2000}
+                        >
+                            Símbolos De Estrella
+                        </Link>
                         </li>
                         <li>
                         <Link to="/#symbols4">Símbolo De Flecha</Link>
