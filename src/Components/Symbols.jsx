@@ -10,6 +10,10 @@ import { SymDices } from "../Symbols/SymDices"
 import { SymNumber } from "../Symbols/SymNumber"
 import { SymTime } from "../Symbols/SymTime"
 import { SymObject } from "../Symbols/SymObject"
+import { SymMenu } from "../Symbols/SymMenu"
+import { SymGen } from "../Symbols/SymGen"
+
+
 
 
 
@@ -28,7 +32,8 @@ export const Symbols = ( showMessage ) => {
             <SymNumber />
             <SymTime />
             <SymObject />
-
+            <SymMenu />
+            <SymGen />
             
         </div>
     )

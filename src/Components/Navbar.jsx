@@ -159,10 +159,28 @@ export const Navbar = () => {
                 <nav className='nav-bar'>
                     <ul className='nav-bar-menu'>
                         <li>
-                        <Link to="/#symbols1">Símbolo De Flecha</Link>
+                        <Link 
+                            activeClass="active"
+                            to="menu-container"
+                            spy={true}
+                            smooth={true}
+                            offset={-200}
+                            duration={2000}
+                        >
+                            Símbolos De Menu
+                        </Link>
                         </li>
                         <li>
-                        <Link to="/#symbols2">Símbolo De Flecha</Link>
+                        <Link 
+                            activeClass="active"
+                            to="gen-container"
+                            spy={true}
+                            smooth={true}
+                            offset={-200}
+                            duration={2000}
+                        >
+                            Símbolos Género
+                        </Link>
                         </li>
                         <li>
                         <Link to="/#symbols3">Símbolo De Flecha</Link>
